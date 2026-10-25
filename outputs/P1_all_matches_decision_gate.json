@@ -1,0 +1,674 @@
+{
+  "summary": {
+    "created_utc": "2026-10-24T23:44:55.674314+00:00",
+    "n_matches": 20,
+    "decisions": 18792,
+    "tracking_frames_found": 18792,
+    "carrier_present_in_tracking": 18757,
+    "carrier_missing_from_tracking": 35,
+    "carrier_xy_valid": 18757,
+    "carrier_roster_missing": 1,
+    "carrier_detected": 18092,
+    "ball_xy_valid": 18758,
+    "phase_status": {
+      "ok": 18474,
+      "team_disagreement": 288,
+      "missing": 30
+    },
+    "rows_with_unresolved_players": 0,
+    "notes": [
+      "20-match canonical decision-level scaffold; no predictive features trained",
+      "Tracking player roles from match roster players[].id and team_id",
+      "Half-open phase membership is an analytical convention, not source-verified",
+      "Phase mismatches left unassigned; do not use as phase-labeled observations",
+      "Missing carrier tracking records retained with carrier_in_tracking_frame=false and carrier_xy=null; not spatially eligible",
+      "Detected and extrapolated XY preserved; finite XY does not guarantee reliable detection",
+      "Outcomes separated from time-zero spatial observations",
+      "EPV fields intentionally not required; full-body pose intentionally deferred",
+      "Full per-match coordinate outputs remain local"
+    ]
+  },
+  "matches": [
+    {
+      "match_id": "1874553",
+      "decisions": 959,
+      "roster_players": 36,
+      "tracking_frames_found": 959,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 950,
+        "team_disagreement": 9
+      },
+      "carrier_present_in_tracking": 956,
+      "carrier_missing_from_tracking": 3,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 18534,
+          "possession_event_id": "8_334",
+          "carrier_player_id": "50999"
+        },
+        {
+          "period": 1,
+          "frame": 18674,
+          "possession_event_id": "8_335",
+          "carrier_player_id": "50999"
+        },
+        {
+          "period": 2,
+          "frame": 29032,
+          "possession_event_id": "8_488",
+          "carrier_player_id": "560893"
+        }
+      ],
+      "carrier_xy_valid": 956,
+      "carrier_detected": 934,
+      "ball_xy_valid": 956,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1886347",
+      "decisions": 999,
+      "roster_players": 36,
+      "tracking_frames_found": 999,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 979,
+        "team_disagreement": 18,
+        "missing": 2
+      },
+      "carrier_present_in_tracking": 999,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 999,
+      "carrier_detected": 967,
+      "ball_xy_valid": 999,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1899585",
+      "decisions": 929,
+      "roster_players": 36,
+      "tracking_frames_found": 929,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 909,
+        "team_disagreement": 20
+      },
+      "carrier_present_in_tracking": 929,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 929,
+      "carrier_detected": 896,
+      "ball_xy_valid": 929,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1925299",
+      "decisions": 1062,
+      "roster_players": 36,
+      "tracking_frames_found": 1062,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 1051,
+        "team_disagreement": 10,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 1062,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 1062,
+      "carrier_detected": 1005,
+      "ball_xy_valid": 1062,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1927964",
+      "decisions": 1140,
+      "roster_players": 36,
+      "tracking_frames_found": 1140,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 1128,
+        "team_disagreement": 9,
+        "missing": 3
+      },
+      "carrier_present_in_tracking": 1139,
+      "carrier_missing_from_tracking": 1,
+      "missing_carrier_examples": [
+        {
+          "period": 2,
+          "frame": 45128,
+          "possession_event_id": "8_952",
+          "carrier_player_id": "51036"
+        }
+      ],
+      "carrier_xy_valid": 1139,
+      "carrier_detected": 1102,
+      "ball_xy_valid": 1139,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1953632",
+      "decisions": 979,
+      "roster_players": 36,
+      "tracking_frames_found": 979,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 1,
+      "carrier_roster_missing_examples": [
+        {
+          "period": 2,
+          "frame": 56766,
+          "carrier_player_id": "973077",
+          "event_team_id": "2380"
+        }
+      ],
+      "phase_status": {
+        "ok": 967,
+        "team_disagreement": 9,
+        "missing": 3
+      },
+      "carrier_present_in_tracking": 970,
+      "carrier_missing_from_tracking": 9,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 6978,
+          "possession_event_id": "8_133",
+          "carrier_player_id": "10549"
+        },
+        {
+          "period": 1,
+          "frame": 10937,
+          "possession_event_id": "8_223",
+          "carrier_player_id": "50992"
+        },
+        {
+          "period": 1,
+          "frame": 13260,
+          "possession_event_id": "8_269",
+          "carrier_player_id": "795508"
+        },
+        {
+          "period": 1,
+          "frame": 24505,
+          "possession_event_id": "8_448",
+          "carrier_player_id": "795511"
+        },
+        {
+          "period": 1,
+          "frame": 25486,
+          "possession_event_id": "8_473",
+          "carrier_player_id": "771861"
+        },
+        {
+          "period": 2,
+          "frame": 31928,
+          "possession_event_id": "8_604",
+          "carrier_player_id": "923862"
+        },
+        {
+          "period": 2,
+          "frame": 32880,
+          "possession_event_id": "8_624",
+          "carrier_player_id": "795510"
+        },
+        {
+          "period": 2,
+          "frame": 47523,
+          "possession_event_id": "8_813",
+          "carrier_player_id": "114464"
+        },
+        {
+          "period": 2,
+          "frame": 56766,
+          "possession_event_id": "8_948",
+          "carrier_player_id": "973077"
+        }
+      ],
+      "carrier_xy_valid": 970,
+      "carrier_detected": 939,
+      "ball_xy_valid": 971,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1959846",
+      "decisions": 946,
+      "roster_players": 36,
+      "tracking_frames_found": 946,
+      "skipped_tracking_records_with_invalid_key": 9,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 939,
+        "team_disagreement": 6,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 945,
+      "carrier_missing_from_tracking": 1,
+      "missing_carrier_examples": [
+        {
+          "period": 2,
+          "frame": 36620,
+          "possession_event_id": "8_585",
+          "carrier_player_id": "957737"
+        }
+      ],
+      "carrier_xy_valid": 945,
+      "carrier_detected": 920,
+      "ball_xy_valid": 945,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1986691",
+      "decisions": 915,
+      "roster_players": 36,
+      "tracking_frames_found": 915,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 893,
+        "team_disagreement": 21,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 915,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 915,
+      "carrier_detected": 886,
+      "ball_xy_valid": 915,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1996435",
+      "decisions": 1005,
+      "roster_players": 36,
+      "tracking_frames_found": 1005,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 980,
+        "team_disagreement": 23,
+        "missing": 2
+      },
+      "carrier_present_in_tracking": 997,
+      "carrier_missing_from_tracking": 8,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 14827,
+          "possession_event_id": "8_339",
+          "carrier_player_id": "795547"
+        },
+        {
+          "period": 1,
+          "frame": 18828,
+          "possession_event_id": "8_384",
+          "carrier_player_id": "26766"
+        },
+        {
+          "period": 1,
+          "frame": 27607,
+          "possession_event_id": "8_549",
+          "carrier_player_id": "931987"
+        },
+        {
+          "period": 2,
+          "frame": 31873,
+          "possession_event_id": "8_594",
+          "carrier_player_id": "42513"
+        },
+        {
+          "period": 2,
+          "frame": 35491,
+          "possession_event_id": "8_652",
+          "carrier_player_id": "28293"
+        },
+        {
+          "period": 2,
+          "frame": 45534,
+          "possession_event_id": "8_830",
+          "carrier_player_id": "133852"
+        },
+        {
+          "period": 2,
+          "frame": 48916,
+          "possession_event_id": "8_878",
+          "carrier_player_id": "973078"
+        },
+        {
+          "period": 2,
+          "frame": 56059,
+          "possession_event_id": "8_981",
+          "carrier_player_id": "28293"
+        }
+      ],
+      "carrier_xy_valid": 997,
+      "carrier_detected": 973,
+      "ball_xy_valid": 997,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "1996436",
+      "decisions": 786,
+      "roster_players": 35,
+      "tracking_frames_found": 786,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 766,
+        "team_disagreement": 20
+      },
+      "carrier_present_in_tracking": 785,
+      "carrier_missing_from_tracking": 1,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 4651,
+          "possession_event_id": "8_57",
+          "carrier_player_id": "3443"
+        }
+      ],
+      "carrier_xy_valid": 785,
+      "carrier_detected": 771,
+      "ball_xy_valid": 785,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2006229",
+      "decisions": 979,
+      "roster_players": 36,
+      "tracking_frames_found": 979,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 969,
+        "team_disagreement": 10
+      },
+      "carrier_present_in_tracking": 977,
+      "carrier_missing_from_tracking": 2,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 11645,
+          "possession_event_id": "8_197",
+          "carrier_player_id": "3443"
+        },
+        {
+          "period": 2,
+          "frame": 36651,
+          "possession_event_id": "8_659",
+          "carrier_player_id": "51006"
+        }
+      ],
+      "carrier_xy_valid": 977,
+      "carrier_detected": 951,
+      "ball_xy_valid": 977,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2006363",
+      "decisions": 976,
+      "roster_players": 36,
+      "tracking_frames_found": 976,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 954,
+        "team_disagreement": 14,
+        "missing": 8
+      },
+      "carrier_present_in_tracking": 976,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 976,
+      "carrier_detected": 942,
+      "ball_xy_valid": 976,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2007448",
+      "decisions": 863,
+      "roster_players": 36,
+      "tracking_frames_found": 863,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 852,
+        "team_disagreement": 10,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 862,
+      "carrier_missing_from_tracking": 1,
+      "missing_carrier_examples": [
+        {
+          "period": 2,
+          "frame": 28557,
+          "possession_event_id": "8_423",
+          "carrier_player_id": "51002"
+        }
+      ],
+      "carrier_xy_valid": 862,
+      "carrier_detected": 833,
+      "ball_xy_valid": 862,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2007721",
+      "decisions": 959,
+      "roster_players": 36,
+      "tracking_frames_found": 959,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 946,
+        "team_disagreement": 11,
+        "missing": 2
+      },
+      "carrier_present_in_tracking": 959,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 959,
+      "carrier_detected": 932,
+      "ball_xy_valid": 959,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2010085",
+      "decisions": 935,
+      "roster_players": 36,
+      "tracking_frames_found": 935,
+      "skipped_tracking_records_with_invalid_key": 19,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 923,
+        "team_disagreement": 8,
+        "missing": 4
+      },
+      "carrier_present_in_tracking": 935,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 935,
+      "carrier_detected": 916,
+      "ball_xy_valid": 935,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2011166",
+      "decisions": 757,
+      "roster_players": 36,
+      "tracking_frames_found": 757,
+      "skipped_tracking_records_with_invalid_key": 12099,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 746,
+        "team_disagreement": 10,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 755,
+      "carrier_missing_from_tracking": 2,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 16025,
+          "possession_event_id": "8_216",
+          "carrier_player_id": "11885"
+        },
+        {
+          "period": 2,
+          "frame": 51583,
+          "possession_event_id": "8_518",
+          "carrier_player_id": "51685"
+        }
+      ],
+      "carrier_xy_valid": 755,
+      "carrier_detected": 724,
+      "ball_xy_valid": 755,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2013725",
+      "decisions": 922,
+      "roster_players": 36,
+      "tracking_frames_found": 922,
+      "skipped_tracking_records_with_invalid_key": 13069,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 908,
+        "team_disagreement": 13,
+        "missing": 1
+      },
+      "carrier_present_in_tracking": 917,
+      "carrier_missing_from_tracking": 5,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 12329,
+          "possession_event_id": "8_137",
+          "carrier_player_id": "23883"
+        },
+        {
+          "period": 1,
+          "frame": 15230,
+          "possession_event_id": "8_171",
+          "carrier_player_id": "23883"
+        },
+        {
+          "period": 1,
+          "frame": 16255,
+          "possession_event_id": "8_183",
+          "carrier_player_id": "51675"
+        },
+        {
+          "period": 1,
+          "frame": 18050,
+          "possession_event_id": "8_222",
+          "carrier_player_id": "51048"
+        },
+        {
+          "period": 2,
+          "frame": 49545,
+          "possession_event_id": "8_588",
+          "carrier_player_id": "560917"
+        }
+      ],
+      "carrier_xy_valid": 917,
+      "carrier_detected": 868,
+      "ball_xy_valid": 917,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2015213",
+      "decisions": 883,
+      "roster_players": 36,
+      "tracking_frames_found": 883,
+      "skipped_tracking_records_with_invalid_key": 11449,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 874,
+        "team_disagreement": 9
+      },
+      "carrier_present_in_tracking": 881,
+      "carrier_missing_from_tracking": 2,
+      "missing_carrier_examples": [
+        {
+          "period": 1,
+          "frame": 10035,
+          "possession_event_id": "8_157",
+          "carrier_player_id": "159946"
+        },
+        {
+          "period": 1,
+          "frame": 23550,
+          "possession_event_id": "8_369",
+          "carrier_player_id": "33697"
+        }
+      ],
+      "carrier_xy_valid": 881,
+      "carrier_detected": 838,
+      "ball_xy_valid": 881,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2016236",
+      "decisions": 959,
+      "roster_players": 36,
+      "tracking_frames_found": 959,
+      "skipped_tracking_records_with_invalid_key": 10509,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 934,
+        "team_disagreement": 25
+      },
+      "carrier_present_in_tracking": 959,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 959,
+      "carrier_detected": 898,
+      "ball_xy_valid": 959,
+      "rows_with_unresolved_players": 0
+    },
+    {
+      "match_id": "2017461",
+      "decisions": 839,
+      "roster_players": 36,
+      "tracking_frames_found": 839,
+      "skipped_tracking_records_with_invalid_key": 11969,
+      "carrier_roster_missing": 0,
+      "carrier_roster_missing_examples": [],
+      "phase_status": {
+        "ok": 806,
+        "team_disagreement": 33
+      },
+      "carrier_present_in_tracking": 839,
+      "carrier_missing_from_tracking": 0,
+      "missing_carrier_examples": [],
+      "carrier_xy_valid": 839,
+      "carrier_detected": 797,
+      "ball_xy_valid": 839,
+      "rows_with_unresolved_players": 0
+    }
+  ]
+}

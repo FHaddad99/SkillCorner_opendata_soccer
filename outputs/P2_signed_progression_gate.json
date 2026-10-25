@@ -1,0 +1,218 @@
+{
+  "created_utc": "2026-10-25T00:16:09.243080+00:00",
+  "purpose": "Official-metadata-verified direction and source-oriented static teammate geometry",
+  "metadata_goalkeeper_comparisons": 80,
+  "metadata_goalkeeper_agreements": 80,
+  "metadata_goalkeeper_disagreements": [],
+  "totals": {
+    "decisions": 18792,
+    "eligible_decisions": 18757,
+    "candidate_pairs": 187570,
+    "positive_dx": 103565,
+    "zero_dx": 44,
+    "negative_dx": 83961,
+    "carrier_xy_missing": 35
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "decisions": 959,
+      "eligible_decisions": 956,
+      "candidate_pairs": 9560,
+      "positive_dx": 5407,
+      "zero_dx": 2,
+      "negative_dx": 4151,
+      "carrier_xy_missing": 3
+    },
+    {
+      "match_id": "1886347",
+      "decisions": 999,
+      "eligible_decisions": 999,
+      "candidate_pairs": 9990,
+      "positive_dx": 5598,
+      "zero_dx": 3,
+      "negative_dx": 4389
+    },
+    {
+      "match_id": "1899585",
+      "decisions": 929,
+      "eligible_decisions": 929,
+      "candidate_pairs": 9290,
+      "positive_dx": 4656,
+      "zero_dx": 1,
+      "negative_dx": 4633
+    },
+    {
+      "match_id": "1925299",
+      "decisions": 1062,
+      "eligible_decisions": 1062,
+      "candidate_pairs": 10620,
+      "positive_dx": 5983,
+      "zero_dx": 2,
+      "negative_dx": 4635
+    },
+    {
+      "match_id": "1927964",
+      "decisions": 1140,
+      "eligible_decisions": 1139,
+      "candidate_pairs": 11390,
+      "positive_dx": 6417,
+      "zero_dx": 4,
+      "negative_dx": 4969,
+      "carrier_xy_missing": 1
+    },
+    {
+      "match_id": "1953632",
+      "decisions": 979,
+      "eligible_decisions": 970,
+      "candidate_pairs": 9700,
+      "positive_dx": 6098,
+      "zero_dx": 4,
+      "negative_dx": 3598,
+      "carrier_xy_missing": 9
+    },
+    {
+      "match_id": "1959846",
+      "decisions": 946,
+      "eligible_decisions": 945,
+      "candidate_pairs": 9450,
+      "positive_dx": 5187,
+      "zero_dx": 3,
+      "negative_dx": 4260,
+      "carrier_xy_missing": 1
+    },
+    {
+      "match_id": "1986691",
+      "decisions": 915,
+      "eligible_decisions": 915,
+      "candidate_pairs": 9150,
+      "positive_dx": 4883,
+      "zero_dx": 2,
+      "negative_dx": 4265
+    },
+    {
+      "match_id": "1996435",
+      "decisions": 1005,
+      "eligible_decisions": 997,
+      "candidate_pairs": 9970,
+      "positive_dx": 5347,
+      "zero_dx": 1,
+      "negative_dx": 4622,
+      "carrier_xy_missing": 8
+    },
+    {
+      "match_id": "1996436",
+      "decisions": 786,
+      "eligible_decisions": 785,
+      "candidate_pairs": 7850,
+      "positive_dx": 3886,
+      "zero_dx": 2,
+      "negative_dx": 3962,
+      "carrier_xy_missing": 1
+    },
+    {
+      "match_id": "2006229",
+      "decisions": 979,
+      "eligible_decisions": 977,
+      "candidate_pairs": 9770,
+      "positive_dx": 5799,
+      "zero_dx": 3,
+      "negative_dx": 3968,
+      "carrier_xy_missing": 2
+    },
+    {
+      "match_id": "2006363",
+      "decisions": 976,
+      "eligible_decisions": 976,
+      "candidate_pairs": 9760,
+      "positive_dx": 5184,
+      "zero_dx": 0,
+      "negative_dx": 4576
+    },
+    {
+      "match_id": "2007448",
+      "decisions": 863,
+      "eligible_decisions": 862,
+      "candidate_pairs": 8620,
+      "positive_dx": 4784,
+      "zero_dx": 4,
+      "negative_dx": 3832,
+      "carrier_xy_missing": 1
+    },
+    {
+      "match_id": "2007721",
+      "decisions": 959,
+      "eligible_decisions": 959,
+      "candidate_pairs": 9590,
+      "positive_dx": 5307,
+      "zero_dx": 3,
+      "negative_dx": 4280
+    },
+    {
+      "match_id": "2010085",
+      "decisions": 935,
+      "eligible_decisions": 935,
+      "candidate_pairs": 9350,
+      "positive_dx": 5351,
+      "zero_dx": 3,
+      "negative_dx": 3996
+    },
+    {
+      "match_id": "2011166",
+      "decisions": 757,
+      "eligible_decisions": 755,
+      "candidate_pairs": 7550,
+      "positive_dx": 3779,
+      "zero_dx": 3,
+      "negative_dx": 3768,
+      "carrier_xy_missing": 2
+    },
+    {
+      "match_id": "2013725",
+      "decisions": 922,
+      "eligible_decisions": 917,
+      "candidate_pairs": 9170,
+      "positive_dx": 5076,
+      "zero_dx": 1,
+      "negative_dx": 4093,
+      "carrier_xy_missing": 5
+    },
+    {
+      "match_id": "2015213",
+      "decisions": 883,
+      "eligible_decisions": 881,
+      "candidate_pairs": 8810,
+      "positive_dx": 4964,
+      "zero_dx": 1,
+      "negative_dx": 3845,
+      "carrier_xy_missing": 2
+    },
+    {
+      "match_id": "2016236",
+      "decisions": 959,
+      "eligible_decisions": 959,
+      "candidate_pairs": 9590,
+      "positive_dx": 5659,
+      "zero_dx": 2,
+      "negative_dx": 3929
+    },
+    {
+      "match_id": "2017461",
+      "decisions": 839,
+      "eligible_decisions": 839,
+      "candidate_pairs": 8390,
+      "positive_dx": 4200,
+      "zero_dx": 0,
+      "negative_dx": 4190
+    }
+  ],
+  "interpretation": [
+    "home_team_side in match.json is authoritative direction; goalkeeper analysis is an independent cross-check",
+    "positive signed_dx is endpoint projection toward attacking goal, not a feasible or observed pass",
+    "No observed action outcomes, vendor end states or future frames are model predictors",
+    "No arbitrary forward/backward threshold; signed displacement retained continuously",
+    "Coordinates from players current at possession start; not receiver destination at arrival",
+    "Carrier and target detections/extrapolations kept separate",
+    "Per-match candidate files saved locally"
+  ]
+}

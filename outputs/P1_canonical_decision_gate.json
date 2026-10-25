@@ -1,0 +1,538 @@
+{
+  "gate": {
+    "created_utc": "2026-10-24T23:09:39.926460+00:00",
+    "match_id": "1874553",
+    "n_possession_start_rows": 959,
+    "distinct_period_frame_keys": 959,
+    "tracking_keys_found": 959,
+    "phase_join_status": {
+      "ok": 950,
+      "team_disagreement": 9
+    },
+    "carrier_xy_finite": 956,
+    "carrier_detected": 934,
+    "ball_xy_finite": 956,
+    "team_roles_resolved": 0,
+    "multi_possession_same_tracking_key": 0,
+    "restrictions": [
+      "Single illustrative match, not held-out inference",
+      "Half-open phase membership is an explicit analytical convention",
+      "Tracking detections and extrapolations retained separately",
+      "Event overlap/linked IDs are diagnostic annotations, not confirmed pre-action features",
+      "No outcome-derived columns included as predictors",
+      "No hypothetical carrying options computed",
+      "Unknown team roles not guessed"
+    ]
+  },
+  "example_rows": [
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 29,
+      "possession_event_id": "8_0",
+      "carrier_player_id": "50973",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 0,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 0,
+      "linked_option_event_count": 0,
+      "linked_option_event_ids": [],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "False",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        0.3,
+        0.23
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        0.39,
+        0.65
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 42,
+      "possession_event_id": "8_1",
+      "carrier_player_id": "51050",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 0,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_0",
+        "7_1"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -19.16,
+        3.18
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -18.01,
+        4.04
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 102,
+      "possession_event_id": "8_2",
+      "carrier_player_id": "50966",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 0,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 0,
+      "linked_option_event_count": 0,
+      "linked_option_event_ids": [],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        14.53,
+        28.06
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        13.12,
+        28.6
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 162,
+      "possession_event_id": "8_3",
+      "carrier_player_id": "795537",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 1,
+      "defending_phase_annotation": "low_block",
+      "overlapping_option_event_count": 0,
+      "linked_option_event_count": 0,
+      "linked_option_event_ids": [],
+      "overlapping_engagement_event_count": 2,
+      "overlapping_engagement_event_ids": [
+        "9_2",
+        "9_5"
+      ],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "shot",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        41.37,
+        -0.56
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        40.72,
+        1.28
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 182,
+      "possession_event_id": "8_4",
+      "carrier_player_id": "560893",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 2,
+      "defending_phase_annotation": "chaotic",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_6",
+        "7_7"
+      ],
+      "overlapping_engagement_event_count": 2,
+      "overlapping_engagement_event_ids": [
+        "9_6",
+        "9_7"
+      ],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        36.64,
+        3.12
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        37.17,
+        2.2
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 257,
+      "possession_event_id": "8_5",
+      "carrier_player_id": "69111",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 3,
+      "defending_phase_annotation": "chaotic",
+      "overlapping_option_event_count": 1,
+      "linked_option_event_count": 1,
+      "linked_option_event_ids": [
+        "7_9"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -25.14,
+        -28.0
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -26.45,
+        -28.18
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 291,
+      "possession_event_id": "8_6",
+      "carrier_player_id": "287934",
+      "attacking_team_id": "1802",
+      "phase_status": "ok",
+      "phase_index": 3,
+      "defending_phase_annotation": "chaotic",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_11",
+        "7_12"
+      ],
+      "overlapping_engagement_event_count": 1,
+      "overlapping_engagement_event_ids": [
+        "9_8"
+      ],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "possession_loss",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -18.79,
+        -21.05
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -20.56,
+        -21.71
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 305,
+      "possession_event_id": "8_7",
+      "carrier_player_id": "797295",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 4,
+      "defending_phase_annotation": "low_block",
+      "overlapping_option_event_count": 0,
+      "linked_option_event_count": 0,
+      "linked_option_event_ids": [],
+      "overlapping_engagement_event_count": 1,
+      "overlapping_engagement_event_ids": [
+        "9_10"
+      ],
+      "observed_carry_outcome": "False",
+      "observed_end_type": "possession_loss",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -25.19,
+        -25.61
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -23.93,
+        -25.99
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 320,
+      "possession_event_id": "8_8",
+      "carrier_player_id": "808608",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 4,
+      "defending_phase_annotation": "low_block",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_15",
+        "7_16"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "possession_loss",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -20.99,
+        -30.69
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -22.8,
+        -30.87
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 491,
+      "possession_event_id": "8_9",
+      "carrier_player_id": "23925",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 7,
+      "defending_phase_annotation": "chaotic",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_19",
+        "7_20"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "False",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -21.84,
+        -34.42
+      ],
+      "ball_detected": false,
+      "ball_xy": [
+        -20.61,
+        -34.96
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 503,
+      "possession_event_id": "8_10",
+      "carrier_player_id": "808608",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 7,
+      "defending_phase_annotation": "chaotic",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_21",
+        "7_22"
+      ],
+      "overlapping_engagement_event_count": 1,
+      "overlapping_engagement_event_ids": [
+        "9_12"
+      ],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "possession_loss",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -40.47,
+        -25.98
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -40.18,
+        -28.51
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 628,
+      "possession_event_id": "8_11",
+      "carrier_player_id": "26766",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 8,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 1,
+      "linked_option_event_count": 1,
+      "linked_option_event_ids": [
+        "7_23"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": false,
+      "carrier_xy": [
+        15.17,
+        -10.92
+      ],
+      "ball_detected": false,
+      "ball_xy": [
+        14.41,
+        -12.59
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 677,
+      "possession_event_id": "8_12",
+      "carrier_player_id": "809759",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 8,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_26",
+        "7_27"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        16.77,
+        -16.99
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        16.14,
+        -16.81
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 719,
+      "possession_event_id": "8_13",
+      "carrier_player_id": "26766",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 8,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 1,
+      "linked_option_event_count": 1,
+      "linked_option_event_ids": [
+        "7_29"
+      ],
+      "overlapping_engagement_event_count": 0,
+      "overlapping_engagement_event_ids": [],
+      "observed_carry_outcome": "True",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        17.49,
+        4.3
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        16.76,
+        2.87
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    },
+    {
+      "match_id": "1874553",
+      "period": 1,
+      "frame": 756,
+      "possession_event_id": "8_14",
+      "carrier_player_id": "42513",
+      "attacking_team_id": "866",
+      "phase_status": "ok",
+      "phase_index": 8,
+      "defending_phase_annotation": "medium_block",
+      "overlapping_option_event_count": 2,
+      "linked_option_event_count": 2,
+      "linked_option_event_ids": [
+        "7_32",
+        "7_33"
+      ],
+      "overlapping_engagement_event_count": 1,
+      "overlapping_engagement_event_ids": [
+        "9_14"
+      ],
+      "observed_carry_outcome": "False",
+      "observed_end_type": "pass",
+      "frame_found": true,
+      "carrier_detected": true,
+      "carrier_xy": [
+        -9.21,
+        32.42
+      ],
+      "ball_detected": true,
+      "ball_xy": [
+        -7.8,
+        29.96
+      ],
+      "team_roles_resolved": false,
+      "unresolved_players": 21
+    }
+  ]
+}

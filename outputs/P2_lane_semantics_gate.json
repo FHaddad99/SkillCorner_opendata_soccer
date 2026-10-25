@@ -1,0 +1,202 @@
+{
+  "created_utc": "2026-10-24T23:59:16.486918+00:00",
+  "objective": "Distinguish absence of interior defender projection from missing position data; independently verify Notebook 07 geometric calculations",
+  "matches": 20,
+  "totals": {
+    "candidate_pairs": 187570,
+    "interior_projection_present": 183324,
+    "no_interior_projection": 4246,
+    "decisions": 18792,
+    "decisions_with_candidates": 18757
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "candidate_pairs": 9560,
+      "interior_projection_present": 9339,
+      "no_interior_projection": 221,
+      "decisions": 959,
+      "decisions_with_candidates": 956,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1886347",
+      "candidate_pairs": 9990,
+      "interior_projection_present": 9734,
+      "no_interior_projection": 256,
+      "decisions": 999,
+      "decisions_with_candidates": 999,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1899585",
+      "candidate_pairs": 9290,
+      "interior_projection_present": 9103,
+      "no_interior_projection": 187,
+      "decisions": 929,
+      "decisions_with_candidates": 929,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1925299",
+      "candidate_pairs": 10620,
+      "interior_projection_present": 10331,
+      "no_interior_projection": 289,
+      "decisions": 1062,
+      "decisions_with_candidates": 1062,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1927964",
+      "candidate_pairs": 11390,
+      "no_interior_projection": 306,
+      "interior_projection_present": 11084,
+      "decisions": 1140,
+      "decisions_with_candidates": 1139,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1953632",
+      "candidate_pairs": 9700,
+      "interior_projection_present": 9515,
+      "no_interior_projection": 185,
+      "decisions": 979,
+      "decisions_with_candidates": 970,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1959846",
+      "candidate_pairs": 9450,
+      "interior_projection_present": 9257,
+      "no_interior_projection": 193,
+      "decisions": 946,
+      "decisions_with_candidates": 945,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1986691",
+      "candidate_pairs": 9150,
+      "interior_projection_present": 8969,
+      "no_interior_projection": 181,
+      "decisions": 915,
+      "decisions_with_candidates": 915,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1996435",
+      "candidate_pairs": 9970,
+      "interior_projection_present": 9795,
+      "no_interior_projection": 175,
+      "decisions": 1005,
+      "decisions_with_candidates": 997,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "1996436",
+      "candidate_pairs": 7850,
+      "interior_projection_present": 7660,
+      "no_interior_projection": 190,
+      "decisions": 786,
+      "decisions_with_candidates": 785,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2006229",
+      "candidate_pairs": 9770,
+      "interior_projection_present": 9597,
+      "no_interior_projection": 173,
+      "decisions": 979,
+      "decisions_with_candidates": 977,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2006363",
+      "candidate_pairs": 9760,
+      "interior_projection_present": 9541,
+      "no_interior_projection": 219,
+      "decisions": 976,
+      "decisions_with_candidates": 976,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2007448",
+      "candidate_pairs": 8620,
+      "no_interior_projection": 222,
+      "interior_projection_present": 8398,
+      "decisions": 863,
+      "decisions_with_candidates": 862,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2007721",
+      "candidate_pairs": 9590,
+      "interior_projection_present": 9327,
+      "no_interior_projection": 263,
+      "decisions": 959,
+      "decisions_with_candidates": 959,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2010085",
+      "candidate_pairs": 9350,
+      "interior_projection_present": 9141,
+      "no_interior_projection": 209,
+      "decisions": 935,
+      "decisions_with_candidates": 935,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2011166",
+      "candidate_pairs": 7550,
+      "interior_projection_present": 7385,
+      "no_interior_projection": 165,
+      "decisions": 757,
+      "decisions_with_candidates": 755,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2013725",
+      "candidate_pairs": 9170,
+      "no_interior_projection": 220,
+      "interior_projection_present": 8950,
+      "decisions": 922,
+      "decisions_with_candidates": 917,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2015213",
+      "candidate_pairs": 8810,
+      "interior_projection_present": 8627,
+      "no_interior_projection": 183,
+      "decisions": 883,
+      "decisions_with_candidates": 881,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2016236",
+      "candidate_pairs": 9590,
+      "interior_projection_present": 9391,
+      "no_interior_projection": 199,
+      "decisions": 959,
+      "decisions_with_candidates": 959,
+      "disagreement_examples": []
+    },
+    {
+      "match_id": "2017461",
+      "candidate_pairs": 8390,
+      "interior_projection_present": 8180,
+      "no_interior_projection": 210,
+      "decisions": 839,
+      "decisions_with_candidates": 839,
+      "disagreement_examples": []
+    }
+  ],
+  "interpretation": [
+    "no_interior_projection means no measured defender projects between carrier and target at the decision frame; it does not establish a clear or feasible pass",
+    "interior_projection_present does not automatically mean an interception is possible",
+    "endpoint proximity is reported separately from open-segment clearance",
+    "same-frame snapshots only; no direction normalization, defender movement, ball travel or outcome-derived predictors",
+    "missing opponent positions and degenerate segments have distinct explicit states",
+    "full coordinate and candidate-level diagnostics remain local"
+  ]
+}

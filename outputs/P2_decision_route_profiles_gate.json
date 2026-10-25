@@ -1,0 +1,210 @@
+{
+  "created_utc": "2026-10-25T00:19:17.861930+00:00",
+  "purpose": "Decision-level summary of verified static geometry; not passing opportunity classification",
+  "n_matches": 20,
+  "totals": {
+    "decision_profiles": 18757,
+    "candidates": 187570,
+    "forward_endpoints": 103565,
+    "no_interior_projection": 4246,
+    "both_detected": 117394,
+    "forward_and_no_interior_projection": 1020
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "decision_profiles": 956,
+      "candidates": 9560,
+      "forward_endpoints": 5407,
+      "no_interior_projection": 221,
+      "both_detected": 6158,
+      "forward_and_no_interior_projection": 46
+    },
+    {
+      "match_id": "1886347",
+      "decision_profiles": 999,
+      "candidates": 9990,
+      "forward_endpoints": 5598,
+      "no_interior_projection": 256,
+      "both_detected": 6520,
+      "forward_and_no_interior_projection": 41
+    },
+    {
+      "match_id": "1899585",
+      "decision_profiles": 929,
+      "candidates": 9290,
+      "forward_endpoints": 4656,
+      "no_interior_projection": 187,
+      "both_detected": 5788,
+      "forward_and_no_interior_projection": 37
+    },
+    {
+      "match_id": "1925299",
+      "decision_profiles": 1062,
+      "candidates": 10620,
+      "forward_endpoints": 5983,
+      "no_interior_projection": 289,
+      "both_detected": 6063,
+      "forward_and_no_interior_projection": 77
+    },
+    {
+      "match_id": "1927964",
+      "decision_profiles": 1139,
+      "candidates": 11390,
+      "forward_endpoints": 6417,
+      "no_interior_projection": 306,
+      "both_detected": 7497,
+      "forward_and_no_interior_projection": 61
+    },
+    {
+      "match_id": "1953632",
+      "decision_profiles": 970,
+      "candidates": 9700,
+      "forward_endpoints": 6098,
+      "no_interior_projection": 185,
+      "both_detected": 6893,
+      "forward_and_no_interior_projection": 46
+    },
+    {
+      "match_id": "1959846",
+      "decision_profiles": 945,
+      "candidates": 9450,
+      "forward_endpoints": 5187,
+      "no_interior_projection": 193,
+      "both_detected": 5960,
+      "forward_and_no_interior_projection": 46
+    },
+    {
+      "match_id": "1986691",
+      "decision_profiles": 915,
+      "candidates": 9150,
+      "forward_endpoints": 4883,
+      "no_interior_projection": 181,
+      "both_detected": 6066,
+      "forward_and_no_interior_projection": 48
+    },
+    {
+      "match_id": "1996435",
+      "decision_profiles": 997,
+      "candidates": 9970,
+      "forward_endpoints": 5347,
+      "no_interior_projection": 175,
+      "both_detected": 7269,
+      "forward_and_no_interior_projection": 47
+    },
+    {
+      "match_id": "1996436",
+      "decision_profiles": 785,
+      "candidates": 7850,
+      "forward_endpoints": 3886,
+      "no_interior_projection": 190,
+      "both_detected": 5252,
+      "forward_and_no_interior_projection": 47
+    },
+    {
+      "match_id": "2006229",
+      "decision_profiles": 977,
+      "candidates": 9770,
+      "forward_endpoints": 5799,
+      "no_interior_projection": 173,
+      "both_detected": 6854,
+      "forward_and_no_interior_projection": 37
+    },
+    {
+      "match_id": "2006363",
+      "decision_profiles": 976,
+      "candidates": 9760,
+      "forward_endpoints": 5184,
+      "no_interior_projection": 219,
+      "both_detected": 5376,
+      "forward_and_no_interior_projection": 58
+    },
+    {
+      "match_id": "2007448",
+      "decision_profiles": 862,
+      "candidates": 8620,
+      "forward_endpoints": 4784,
+      "no_interior_projection": 222,
+      "both_detected": 5152,
+      "forward_and_no_interior_projection": 56
+    },
+    {
+      "match_id": "2007721",
+      "decision_profiles": 959,
+      "candidates": 9590,
+      "forward_endpoints": 5307,
+      "no_interior_projection": 263,
+      "both_detected": 6549,
+      "forward_and_no_interior_projection": 60
+    },
+    {
+      "match_id": "2010085",
+      "decision_profiles": 935,
+      "candidates": 9350,
+      "forward_endpoints": 5351,
+      "no_interior_projection": 209,
+      "both_detected": 5254,
+      "forward_and_no_interior_projection": 46
+    },
+    {
+      "match_id": "2011166",
+      "decision_profiles": 755,
+      "candidates": 7550,
+      "forward_endpoints": 3779,
+      "no_interior_projection": 165,
+      "both_detected": 4303,
+      "forward_and_no_interior_projection": 38
+    },
+    {
+      "match_id": "2013725",
+      "decision_profiles": 917,
+      "candidates": 9170,
+      "forward_endpoints": 5076,
+      "no_interior_projection": 220,
+      "both_detected": 5461,
+      "forward_and_no_interior_projection": 55
+    },
+    {
+      "match_id": "2015213",
+      "decision_profiles": 881,
+      "candidates": 8810,
+      "forward_endpoints": 4964,
+      "no_interior_projection": 183,
+      "both_detected": 5332,
+      "forward_and_no_interior_projection": 51
+    },
+    {
+      "match_id": "2016236",
+      "decision_profiles": 959,
+      "candidates": 9590,
+      "forward_endpoints": 5659,
+      "no_interior_projection": 199,
+      "both_detected": 4938,
+      "forward_and_no_interior_projection": 44
+    },
+    {
+      "match_id": "2017461",
+      "decision_profiles": 839,
+      "candidates": 8390,
+      "forward_endpoints": 4200,
+      "no_interior_projection": 210,
+      "both_detected": 4709,
+      "forward_and_no_interior_projection": 79
+    }
+  ],
+  "invariants": {
+    "one_profile_per_eligible_decision": true,
+    "exactly_ten_unique_teammates_per_profile": true,
+    "forward_and_projection_counts_reconcile": true,
+    "source_pair_counts_reconcile": true
+  },
+  "limitations": [
+    "Ten candidate endpoints share one decision; no independent candidate-level statistical samples",
+    "Proximity and projection are descriptive, not pressing or pass feasibility",
+    "Carrier-plus-target detected subset is NOT fully detected-only lane quality; opponent coordinates may be extrapolated",
+    "No arbitrary clearance or progression threshold introduced",
+    "Source phases and outcomes not joined as predictors",
+    "No temporal defender reach, ball speed, carrying alternatives or pose features",
+    "Any downstream inference must respect match and possession/episode clustering"
+  ]
+}

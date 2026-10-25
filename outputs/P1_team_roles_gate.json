@@ -1,0 +1,183 @@
+{
+  "gate": {
+    "created_utc": "2026-10-24T23:19:40.770747+00:00",
+    "match_id": "1874553",
+    "decisions": 959,
+    "roster_identifier_scheme": "player.id",
+    "roster_players": 36,
+    "carrier_roster_hits": 959,
+    "tracking_frames_found": 959,
+    "team_roles_resolved": 959,
+    "rows_with_unresolved_players": 0,
+    "roster_team_ids": [
+      "1802",
+      "866"
+    ],
+    "phase_status_counts": {
+      "ok": 950,
+      "team_disagreement": 9
+    },
+    "phase_disagreement_cases": [
+      {
+        "period": 1,
+        "frame": 6732,
+        "event_id": "8_123",
+        "carrier_id": "26766",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "67",
+            "start": 6682,
+            "end": 6882,
+            "team_in_possession_id": "1802",
+            "in_phase": "set_play",
+            "out_phase": "defending_set_play"
+          }
+        ]
+      },
+      {
+        "period": 1,
+        "frame": 6851,
+        "event_id": "8_127",
+        "carrier_id": "50968",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "67",
+            "start": 6682,
+            "end": 6882,
+            "team_in_possession_id": "1802",
+            "in_phase": "set_play",
+            "out_phase": "defending_set_play"
+          }
+        ]
+      },
+      {
+        "period": 1,
+        "frame": 9487,
+        "event_id": "8_156",
+        "carrier_id": "560893",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "82",
+            "start": 9327,
+            "end": 9527,
+            "team_in_possession_id": "1802",
+            "in_phase": "set_play",
+            "out_phase": "defending_set_play"
+          }
+        ]
+      },
+      {
+        "period": 1,
+        "frame": 15091,
+        "event_id": "8_253",
+        "carrier_id": "51005",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "127",
+            "start": 15054,
+            "end": 15254,
+            "team_in_possession_id": "1802",
+            "in_phase": "set_play",
+            "out_phase": "defending_set_play"
+          }
+        ]
+      },
+      {
+        "period": 1,
+        "frame": 21594,
+        "event_id": "8_400",
+        "carrier_id": "50949",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "164",
+            "start": 21520,
+            "end": 21675,
+            "team_in_possession_id": "1802",
+            "in_phase": "finish",
+            "out_phase": "low_block"
+          }
+        ]
+      },
+      {
+        "period": 1,
+        "frame": 21610,
+        "event_id": "8_401",
+        "carrier_id": "51005",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "164",
+            "start": 21520,
+            "end": 21675,
+            "team_in_possession_id": "1802",
+            "in_phase": "finish",
+            "out_phase": "low_block"
+          }
+        ]
+      },
+      {
+        "period": 2,
+        "frame": 46632,
+        "event_id": "8_773",
+        "carrier_id": "51002",
+        "event_attacking_team": "1802",
+        "nearby_phases": [
+          {
+            "index": "332",
+            "start": 46608,
+            "end": 46683,
+            "team_in_possession_id": "866",
+            "in_phase": "set_play",
+            "out_phase": "defending_set_play"
+          }
+        ]
+      },
+      {
+        "period": 2,
+        "frame": 54449,
+        "event_id": "8_889",
+        "carrier_id": "560895",
+        "event_attacking_team": "866",
+        "nearby_phases": [
+          {
+            "index": "379",
+            "start": 54280,
+            "end": 54485,
+            "team_in_possession_id": "1802",
+            "in_phase": "finish",
+            "out_phase": "low_block"
+          }
+        ]
+      },
+      {
+        "period": 2,
+        "frame": 55952,
+        "event_id": "8_912",
+        "carrier_id": "51002",
+        "event_attacking_team": "1802",
+        "nearby_phases": [
+          {
+            "index": "389",
+            "start": 55872,
+            "end": 55982,
+            "team_in_possession_id": "866",
+            "in_phase": "finish",
+            "out_phase": "low_block"
+          }
+        ]
+      }
+    ],
+    "caveats": [
+      "Team role derived from match roster metadata, not guessed from positions",
+      "is_detected still distinguishes direct detections from extrapolated positions",
+      "Phase disagreements not silently relabelled",
+      "Observed carry and end_type remain outcome labels, never pre-action predictors",
+      "Only one match: no claims of cross-match validity"
+    ]
+  }
+}

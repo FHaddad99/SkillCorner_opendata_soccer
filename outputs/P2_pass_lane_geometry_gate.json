@@ -1,0 +1,818 @@
+{
+  "created_utc": "2026-10-24T23:56:17.599366+00:00",
+  "purpose": "Static pre-action carrier-to-teammate segment geometry, not passing feasibility",
+  "n_matches": 20,
+  "totals": {
+    "decision_rows": 18792,
+    "carrier_xy_valid": 18757,
+    "carrier_detected": 18092,
+    "missing_carrier_xy": 35,
+    "no_opponent_positions": 0,
+    "decisions_without_teammate_candidates": 0,
+    "candidate_pairs": 187570,
+    "teammate_detected_pairs": 119042,
+    "interior_clearance_defined": 183324,
+    "detected_only_interior_clearance_defined": 114886
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "decision_rows": 959,
+      "carrier_xy_valid": 956,
+      "carrier_detected": 934,
+      "candidate_pairs": 9560,
+      "teammate_detected_pairs": 6227,
+      "interior_clearance_defined": 9339,
+      "detected_only_interior_clearance_defined": 6048,
+      "missing_carrier_xy": 3,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 29,
+          "carrier_player_id": "50973",
+          "teammate_player_id": "69111",
+          "pass_segment_length_m": 22.741350003902582,
+          "interior_opponent_clearance_m": 6.506064942257586,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 29,
+          "carrier_player_id": "50973",
+          "teammate_player_id": "51050",
+          "pass_segment_length_m": 19.297429880686185,
+          "interior_opponent_clearance_m": 7.975528396868947,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 29,
+          "carrier_player_id": "50973",
+          "teammate_player_id": "560983",
+          "pass_segment_length_m": 26.86560068191292,
+          "interior_opponent_clearance_m": 1.2333913688484346,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1886347",
+      "decision_rows": 999,
+      "carrier_xy_valid": 999,
+      "carrier_detected": 967,
+      "candidate_pairs": 9990,
+      "teammate_detected_pairs": 6574,
+      "interior_clearance_defined": 9734,
+      "detected_only_interior_clearance_defined": 6405,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 28,
+          "carrier_player_id": "966120",
+          "teammate_player_id": "176224",
+          "pass_segment_length_m": 22.46815524247596,
+          "interior_opponent_clearance_m": 7.335769146209484,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 28,
+          "carrier_player_id": "966120",
+          "teammate_player_id": "51649",
+          "pass_segment_length_m": 22.451623549311527,
+          "interior_opponent_clearance_m": 8.60975597490488,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 28,
+          "carrier_player_id": "966120",
+          "teammate_player_id": "50983",
+          "pass_segment_length_m": 33.54798503636247,
+          "interior_opponent_clearance_m": 0.44731747625779705,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1899585",
+      "decision_rows": 929,
+      "carrier_xy_valid": 929,
+      "carrier_detected": 896,
+      "candidate_pairs": 9290,
+      "teammate_detected_pairs": 5862,
+      "interior_clearance_defined": 9103,
+      "detected_only_interior_clearance_defined": 5665,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "23909",
+          "teammate_player_id": "698137",
+          "pass_segment_length_m": 22.47519744073453,
+          "interior_opponent_clearance_m": 8.434537694268398,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "23909",
+          "teammate_player_id": "799092",
+          "pass_segment_length_m": 20.978991872823634,
+          "interior_opponent_clearance_m": 6.617639247948964,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "23909",
+          "teammate_player_id": "42510",
+          "pass_segment_length_m": 21.009407416678844,
+          "interior_opponent_clearance_m": 9.531577736981973,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1925299",
+      "decision_rows": 1062,
+      "carrier_xy_valid": 1062,
+      "carrier_detected": 1005,
+      "candidate_pairs": 10620,
+      "teammate_detected_pairs": 6274,
+      "interior_clearance_defined": 10331,
+      "detected_only_interior_clearance_defined": 5901,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 40,
+          "carrier_player_id": "51002",
+          "teammate_player_id": "965697",
+          "pass_segment_length_m": 18.161437167801456,
+          "interior_opponent_clearance_m": 9.67572656152699,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 40,
+          "carrier_player_id": "51002",
+          "teammate_player_id": "51050",
+          "pass_segment_length_m": 14.270423960065097,
+          "interior_opponent_clearance_m": 10.86859790809554,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 40,
+          "carrier_player_id": "51002",
+          "teammate_player_id": "51043",
+          "pass_segment_length_m": 33.105081180990936,
+          "interior_opponent_clearance_m": 0.05046355243373531,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1927964",
+      "decision_rows": 1140,
+      "carrier_xy_valid": 1139,
+      "candidate_pairs": 11390,
+      "teammate_detected_pairs": 7513,
+      "interior_clearance_defined": 11084,
+      "detected_only_interior_clearance_defined": 7340,
+      "carrier_detected": 1102,
+      "missing_carrier_xy": 1,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 27,
+          "carrier_player_id": "51015",
+          "teammate_player_id": "34718",
+          "pass_segment_length_m": 17.91698635373706,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 27,
+          "carrier_player_id": "51015",
+          "teammate_player_id": "42510",
+          "pass_segment_length_m": 9.874948101129444,
+          "interior_opponent_clearance_m": 23.559728883374145,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 27,
+          "carrier_player_id": "51015",
+          "teammate_player_id": "957734",
+          "pass_segment_length_m": 34.5774680970137,
+          "interior_opponent_clearance_m": 4.847564301981855,
+          "teammate_coordinate_quality": "extrapolated"
+        }
+      ]
+    },
+    {
+      "match_id": "1953632",
+      "decision_rows": 979,
+      "carrier_xy_valid": 970,
+      "carrier_detected": 939,
+      "candidate_pairs": 9700,
+      "teammate_detected_pairs": 6952,
+      "interior_clearance_defined": 9515,
+      "detected_only_interior_clearance_defined": 6793,
+      "missing_carrier_xy": 9,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 36,
+          "carrier_player_id": "51681",
+          "teammate_player_id": "50992",
+          "pass_segment_length_m": 20.69264845301345,
+          "interior_opponent_clearance_m": 6.6317852116226055,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 36,
+          "carrier_player_id": "51681",
+          "teammate_player_id": "9520",
+          "pass_segment_length_m": 15.449792878870577,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 36,
+          "carrier_player_id": "51681",
+          "teammate_player_id": "51051",
+          "pass_segment_length_m": 26.54397295055885,
+          "interior_opponent_clearance_m": 3.3930263629998083,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1959846",
+      "decision_rows": 946,
+      "carrier_xy_valid": 945,
+      "candidate_pairs": 9450,
+      "teammate_detected_pairs": 5967,
+      "interior_clearance_defined": 9257,
+      "detected_only_interior_clearance_defined": 5833,
+      "carrier_detected": 920,
+      "missing_carrier_xy": 1,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 0,
+          "carrier_player_id": "560916",
+          "teammate_player_id": "159946",
+          "pass_segment_length_m": 61.832434854209,
+          "interior_opponent_clearance_m": 1.1550248695266847,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 0,
+          "carrier_player_id": "560916",
+          "teammate_player_id": "51008",
+          "pass_segment_length_m": 37.06394069712501,
+          "interior_opponent_clearance_m": 1.2030938740266988,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 0,
+          "carrier_player_id": "560916",
+          "teammate_player_id": "957737",
+          "pass_segment_length_m": 35.2485985537014,
+          "interior_opponent_clearance_m": 0.9192393833937986,
+          "teammate_coordinate_quality": "extrapolated"
+        }
+      ]
+    },
+    {
+      "match_id": "1986691",
+      "decision_rows": 915,
+      "carrier_xy_valid": 915,
+      "carrier_detected": 886,
+      "candidate_pairs": 9150,
+      "teammate_detected_pairs": 6086,
+      "interior_clearance_defined": 8969,
+      "detected_only_interior_clearance_defined": 5951,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 23,
+          "carrier_player_id": "5521",
+          "teammate_player_id": "5468",
+          "pass_segment_length_m": 24.39612469225389,
+          "interior_opponent_clearance_m": 9.862111422819256,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 23,
+          "carrier_player_id": "5521",
+          "teammate_player_id": "560990",
+          "pass_segment_length_m": 26.013267768583017,
+          "interior_opponent_clearance_m": 7.318130951233801,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 23,
+          "carrier_player_id": "5521",
+          "teammate_player_id": "795523",
+          "pass_segment_length_m": 28.27638237115915,
+          "interior_opponent_clearance_m": 5.886499121958812,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1996435",
+      "decision_rows": 1005,
+      "carrier_xy_valid": 997,
+      "carrier_detected": 973,
+      "candidate_pairs": 9970,
+      "teammate_detected_pairs": 7353,
+      "interior_clearance_defined": 9795,
+      "detected_only_interior_clearance_defined": 7156,
+      "missing_carrier_xy": 8,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 95,
+          "carrier_player_id": "560893",
+          "teammate_player_id": "26766",
+          "pass_segment_length_m": 15.891195675593451,
+          "interior_opponent_clearance_m": 7.485239149291256,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 95,
+          "carrier_player_id": "560893",
+          "teammate_player_id": "809759",
+          "pass_segment_length_m": 13.29595803242474,
+          "interior_opponent_clearance_m": 18.96565101853087,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 95,
+          "carrier_player_id": "560893",
+          "teammate_player_id": "51005",
+          "pass_segment_length_m": 10.689513553010727,
+          "interior_opponent_clearance_m": 4.331703194010959,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "1996436",
+      "decision_rows": 786,
+      "carrier_xy_valid": 785,
+      "carrier_detected": 771,
+      "candidate_pairs": 7850,
+      "teammate_detected_pairs": 5269,
+      "interior_clearance_defined": 7660,
+      "detected_only_interior_clearance_defined": 5129,
+      "missing_carrier_xy": 1,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 35,
+          "carrier_player_id": "51648",
+          "teammate_player_id": "51006",
+          "pass_segment_length_m": 16.69944310448705,
+          "interior_opponent_clearance_m": 7.984152475370555,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 35,
+          "carrier_player_id": "51648",
+          "teammate_player_id": "966116",
+          "pass_segment_length_m": 16.351846990477867,
+          "interior_opponent_clearance_m": 8.94279405165389,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 35,
+          "carrier_player_id": "51648",
+          "teammate_player_id": "808580",
+          "pass_segment_length_m": 17.8740706052091,
+          "interior_opponent_clearance_m": 2.9278725118579545,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2006229",
+      "decision_rows": 979,
+      "carrier_xy_valid": 977,
+      "carrier_detected": 951,
+      "candidate_pairs": 9770,
+      "teammate_detected_pairs": 6933,
+      "interior_clearance_defined": 9597,
+      "detected_only_interior_clearance_defined": 6752,
+      "missing_carrier_xy": 2,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 18,
+          "carrier_player_id": "50980",
+          "teammate_player_id": "5805",
+          "pass_segment_length_m": 21.685174659199774,
+          "interior_opponent_clearance_m": 15.625633886985906,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 18,
+          "carrier_player_id": "50980",
+          "teammate_player_id": "51006",
+          "pass_segment_length_m": 17.579084162720196,
+          "interior_opponent_clearance_m": 7.018716041058405,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 18,
+          "carrier_player_id": "50980",
+          "teammate_player_id": "11895",
+          "pass_segment_length_m": 21.25969190745717,
+          "interior_opponent_clearance_m": 12.068806129311819,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2006363",
+      "decision_rows": 976,
+      "carrier_xy_valid": 976,
+      "carrier_detected": 942,
+      "candidate_pairs": 9760,
+      "teammate_detected_pairs": 5436,
+      "interior_clearance_defined": 9541,
+      "detected_only_interior_clearance_defined": 5245,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "51013",
+          "pass_segment_length_m": 23.42886467586511,
+          "interior_opponent_clearance_m": 9.470437559382377,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "9175",
+          "pass_segment_length_m": 19.11945867434536,
+          "interior_opponent_clearance_m": 10.170120572551083,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "50977",
+          "pass_segment_length_m": 16.721387502237963,
+          "interior_opponent_clearance_m": 6.191184791701308,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2007448",
+      "decision_rows": 863,
+      "carrier_xy_valid": 862,
+      "candidate_pairs": 8620,
+      "teammate_detected_pairs": 5228,
+      "interior_clearance_defined": 8398,
+      "detected_only_interior_clearance_defined": 5025,
+      "carrier_detected": 833,
+      "missing_carrier_xy": 1,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "211",
+          "teammate_player_id": "51021",
+          "pass_segment_length_m": 37.1431083782712,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "211",
+          "teammate_player_id": "560989",
+          "pass_segment_length_m": 17.914642056150605,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 10,
+          "carrier_player_id": "211",
+          "teammate_player_id": "458606",
+          "pass_segment_length_m": 21.287782881267837,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        }
+      ]
+    },
+    {
+      "match_id": "2007721",
+      "decision_rows": 959,
+      "carrier_xy_valid": 959,
+      "carrier_detected": 932,
+      "candidate_pairs": 9590,
+      "teammate_detected_pairs": 6632,
+      "interior_clearance_defined": 9327,
+      "detected_only_interior_clearance_defined": 6409,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 20,
+          "carrier_player_id": "23418",
+          "teammate_player_id": "51667",
+          "pass_segment_length_m": 12.852346089333262,
+          "interior_opponent_clearance_m": 11.89578921523824,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 20,
+          "carrier_player_id": "23418",
+          "teammate_player_id": "4322",
+          "pass_segment_length_m": 21.37783899275135,
+          "interior_opponent_clearance_m": 6.597954079821926,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 20,
+          "carrier_player_id": "23418",
+          "teammate_player_id": "133498",
+          "pass_segment_length_m": 24.158559559708856,
+          "interior_opponent_clearance_m": 8.435858913537643,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2010085",
+      "decision_rows": 935,
+      "carrier_xy_valid": 935,
+      "carrier_detected": 916,
+      "candidate_pairs": 9350,
+      "teammate_detected_pairs": 5312,
+      "interior_clearance_defined": 9141,
+      "detected_only_interior_clearance_defined": 5132,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "771855",
+          "teammate_player_id": "114464",
+          "pass_segment_length_m": 12.106960807733705,
+          "interior_opponent_clearance_m": 8.745621769285313,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "771855",
+          "teammate_player_id": "9520",
+          "pass_segment_length_m": 16.00015624923707,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 12,
+          "carrier_player_id": "771855",
+          "teammate_player_id": "104563",
+          "pass_segment_length_m": 20.379796367971885,
+          "interior_opponent_clearance_m": 4.215503356795783,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2011166",
+      "decision_rows": 757,
+      "carrier_xy_valid": 755,
+      "carrier_detected": 724,
+      "candidate_pairs": 7550,
+      "teammate_detected_pairs": 4394,
+      "interior_clearance_defined": 7385,
+      "detected_only_interior_clearance_defined": 4173,
+      "missing_carrier_xy": 2,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 2318,
+          "carrier_player_id": "51685",
+          "teammate_player_id": "9175",
+          "pass_segment_length_m": 11.743747272485047,
+          "interior_opponent_clearance_m": 19.185273215805818,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 2318,
+          "carrier_player_id": "51685",
+          "teammate_player_id": "50977",
+          "pass_segment_length_m": 31.360760513737542,
+          "interior_opponent_clearance_m": 18.171845665233896,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 2318,
+          "carrier_player_id": "51685",
+          "teammate_player_id": "811820",
+          "pass_segment_length_m": 13.559974188765995,
+          "interior_opponent_clearance_m": 24.341794121810043,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2013725",
+      "decision_rows": 922,
+      "carrier_xy_valid": 917,
+      "candidate_pairs": 9170,
+      "teammate_detected_pairs": 5620,
+      "interior_clearance_defined": 8950,
+      "detected_only_interior_clearance_defined": 5333,
+      "carrier_detected": 868,
+      "missing_carrier_xy": 5,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 4043,
+          "carrier_player_id": "560917",
+          "teammate_player_id": "159946",
+          "pass_segment_length_m": 32.242340175613805,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 4043,
+          "carrier_player_id": "560917",
+          "teammate_player_id": "23883",
+          "pass_segment_length_m": 15.6336623988111,
+          "interior_opponent_clearance_m": null,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 4043,
+          "carrier_player_id": "560917",
+          "teammate_player_id": "957737",
+          "pass_segment_length_m": 24.561809786740064,
+          "interior_opponent_clearance_m": 18.188154858245575,
+          "teammate_coordinate_quality": "extrapolated"
+        }
+      ]
+    },
+    {
+      "match_id": "2015213",
+      "decision_rows": 883,
+      "carrier_xy_valid": 881,
+      "candidate_pairs": 8810,
+      "teammate_detected_pairs": 5439,
+      "interior_clearance_defined": 8627,
+      "detected_only_interior_clearance_defined": 5229,
+      "carrier_detected": 838,
+      "missing_carrier_xy": 2,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 2212,
+          "carrier_player_id": "163972",
+          "teammate_player_id": "285188",
+          "pass_segment_length_m": 39.690102040685154,
+          "interior_opponent_clearance_m": 4.601008579237394,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 2212,
+          "carrier_player_id": "163972",
+          "teammate_player_id": "51667",
+          "pass_segment_length_m": 19.12734430076481,
+          "interior_opponent_clearance_m": 8.571158516420113,
+          "teammate_coordinate_quality": "extrapolated"
+        },
+        {
+          "period": 1,
+          "frame": 2212,
+          "carrier_player_id": "163972",
+          "teammate_player_id": "33697",
+          "pass_segment_length_m": 20.480039062462748,
+          "interior_opponent_clearance_m": 3.5983329804810555,
+          "teammate_coordinate_quality": "extrapolated"
+        }
+      ]
+    },
+    {
+      "match_id": "2016236",
+      "decision_rows": 959,
+      "carrier_xy_valid": 959,
+      "carrier_detected": 898,
+      "candidate_pairs": 9590,
+      "teammate_detected_pairs": 5134,
+      "interior_clearance_defined": 9391,
+      "detected_only_interior_clearance_defined": 4828,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 1180,
+          "carrier_player_id": "809759",
+          "teammate_player_id": "26766",
+          "pass_segment_length_m": 9.102625994733607,
+          "interior_opponent_clearance_m": 8.65479918054192,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 1180,
+          "carrier_player_id": "809759",
+          "teammate_player_id": "51005",
+          "pass_segment_length_m": 17.305565578737955,
+          "interior_opponent_clearance_m": 1.8777658466086273,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 1180,
+          "carrier_player_id": "809759",
+          "teammate_player_id": "4792",
+          "pass_segment_length_m": 19.93243838570685,
+          "interior_opponent_clearance_m": 10.84581303183763,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    },
+    {
+      "match_id": "2017461",
+      "decision_rows": 839,
+      "carrier_xy_valid": 839,
+      "carrier_detected": 797,
+      "candidate_pairs": 8390,
+      "teammate_detected_pairs": 4837,
+      "interior_clearance_defined": 8180,
+      "detected_only_interior_clearance_defined": 4539,
+      "sample_candidates": [
+        {
+          "period": 1,
+          "frame": 2512,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "51013",
+          "pass_segment_length_m": 21.61553607940363,
+          "interior_opponent_clearance_m": 8.519816456251451,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 2512,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "51685",
+          "pass_segment_length_m": 26.3094355697723,
+          "interior_opponent_clearance_m": 6.660028852968527,
+          "teammate_coordinate_quality": "detected"
+        },
+        {
+          "period": 1,
+          "frame": 2512,
+          "carrier_player_id": "11885",
+          "teammate_player_id": "800322",
+          "pass_segment_length_m": 23.877709270363432,
+          "interior_opponent_clearance_m": 8.671271504967468,
+          "teammate_coordinate_quality": "detected"
+        }
+      ]
+    }
+  ],
+  "interpretation_constraints": [
+    "One row per candidate teammate at observed carrier possession-start frame",
+    "Interior-clearance undefined does NOT mean unobstructed or successful pass",
+    "No speed, defender reaction time, passing angle, ball motion, pitch orientation or path dynamics",
+    "Detected-only comparison is incomplete when carrier, teammate or defenders not detected",
+    "No outcome labels used as spatial predictors; no pass/carry opportunity classification",
+    "No predictive validation or claims about coordinated pressing"
+  ]
+}
