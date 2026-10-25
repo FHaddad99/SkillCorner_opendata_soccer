@@ -1,1 +1,5 @@
 *.jsonl filter=lfs diff=lfs merge=lfs -text
+1925299.jsonl.zip filter=lfs diff=lfs merge=lfs -text
+1996435.jsonl.zip filter=lfs diff=lfs merge=lfs -text
+pose_data/1925299.jsonl.zip filter=lfs diff=lfs merge=lfs -text
+pose_data/1996435.jsonl.zip filter=lfs diff=lfs merge=lfs -text
