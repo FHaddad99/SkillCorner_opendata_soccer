@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "software": {
+    "version": "0.7.0",
+    "implementation_sha256": "608916aa5f0342b1469604ebbe158c1108f44ebcf887df93efff3d890dedadce",
+    "config_sha256": "2f503e97aad4028c6bac07f5c949dcd44bf92ac9bc8ee0677b442875d7ab58ec",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "browser": "156.0.8078.47",
+  "checks": [
+    "same button captures start and end",
+    "real canvas click assigns primary",
+    "other defenders toggle support",
+    "opponent rejected without stopping replay",
+    "end autosaves with native bounds and clicked players",
+    "saving leaves full-half playback running",
+    "record survives reload",
+    "edit bounds and clicked roles with stable event identity",
+    "edit adds support from outside event with actual click frame and unchanged bounds/cursor",
+    "delete hides event without labelling it negative",
+    "undo restore survives reload",
+    "edit save and delete preserve playback",
+    "draft restored without moving replay cursor",
+    "cross-half end rejected and cancel works",
+    "half selection retained",
+    "detailed tab and form removed",
+    "scope exclusions recorded as deferred and not automatically filtered",
+    "desktop/mobile without browser errors"
+  ],
+  "temporary_test_events": 1,
+  "human_annotation_file_unchanged": true,
+  "human_annotation_sha256": "d226e40eb7c06004e93d26b51f886d8a7dee52ff34112aed28648a589d0464d5",
+  "browser_errors": []
+}

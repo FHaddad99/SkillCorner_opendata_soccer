@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PressLens · Match review</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script><script src="/press_marker.js" defer></script><script src="/candidates.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="PressLens home"><span class="brand-icon">P<span>↗</span></span>PressLens<span class="brand-sub">REVIEW WORKSPACE</span></a><span class="local"><i></i>Local replay <span class="version">v0.7</span></span></header>
+  <main>
+    <aside class="sidebar panel">
+      <div class="eyebrow">01 / SELECT A MATCH</div>
+      <label for="match">Fixture</label><select id="match"><option>Loading audited matches…</option></select>
+      <p id="date" class="muted"></p>
+      <div class="divider"></div>
+      <div class="eyebrow">REVIEW PARTITION</div><span class="tag amber">DEVELOPMENT · PRIOR EXPOSURE</span>
+      <p class="small muted">Earlier exploratory work covers every local match. No untouched evaluation set is claimed.</p>
+      <div class="divider"></div>
+      <div class="eyebrow">DISPLAY</div>
+      <label class="check"><input id="numbers" type="checkbox" checked> Shirt numbers</label>
+      <label class="check"><input id="extrapolated" type="checkbox" checked> Extrapolated positions</label>
+      <label class="check"><input id="provider" type="checkbox"> Provider event &amp; phase context</label>
+      <p class="small muted">Start with geometry. Optional provider labels stay separate from your judgement.</p>
+      <div class="legend"><span><i class="dot home"></i><span id="home-label">Home</span></span><span><i class="dot away"></i><span id="away-label">Away</span></span><span><i class="ring"></i>Extrapolated</span><span><i class="ball-dot"></i>Ball</span></div>
+      <div class="divider"></div>
+      <div class="eyebrow">LOCAL REVIEW FILES</div><button id="export" class="quiet full">Download review history ↓</button>
+      <p class="small muted">Saves stay on this computer. Source release and redistribution checks remain pending.</p>
+    </aside>
+
+    <section class="workspace">
+      <div class="fixture-heading"><div><div class="eyebrow">02 / OBSERVE THE MATCH</div><h1 id="fixture-title">Match review</h1><p id="match-status" class="muted">Choose an audited fixture to begin.</p></div><span class="tag">TRACKING RECONSTRUCTION</span></div>
+      <div id="alert" class="notice" role="status" aria-live="polite">Loading the local workspace…</div>
+      <div class="pitch-panel panel">
+        <div class="pitch-top"><div class="periods"><button id="period1" class="chip active">First half</button><button id="period2" class="chip">Second half</button></div><div class="live-readout"><span id="clock">--:--</span><span id="frame-label">FRAME —</span></div></div>
+        <div class="canvas-wrap"><canvas id="pitch" width="1200" height="800" tabindex="0" aria-label="Interactive tracking pitch. Use arrow keys to step frames. Click a player to select a primary presser."></canvas><div id="pitch-empty" class="pitch-empty" hidden>Positions unavailable at this frame</div></div>
+        <div class="pitch-bottom"><span id="direction">Native pitch coordinates · no interpolation</span><span id="picked">Click a player to inspect / assign</span></div>
+      </div>
+      <div class="transport panel">
+        <div class="timeline"><div id="phase-track" aria-hidden="true"></div><input id="scrubber" type="range" min="0" max="1" value="0" aria-label="Match frame cursor" disabled></div>
+        <div class="transport-controls"><div class="play-controls"><button id="back10" title="Back 1 second" aria-label="Back ten frames">−1s</button><button id="back" title="Previous frame (left arrow)" aria-label="Previous frame">‹</button><button id="play" class="primary play" aria-label="Play replay">▶</button><button id="next" title="Next frame (right arrow)" aria-label="Next frame">›</button><button id="next10" title="Forward 1 second" aria-label="Forward ten frames">+1s</button></div><label class="inline">Speed<select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label><form id="jump-form" class="inline"><label for="jump">Frame</label><input id="jump" type="number" min="0" value="0"><button class="secondary" type="submit">Go</button></form></div>
+      </div>
+      <div class="evidence-grid"><section class="panel evidence"><div class="eyebrow">CURRENT FRAME QUALITY</div><div class="quality-stats"><div><strong id="detected">—</strong><span>Detected</span></div><div><strong id="estimated">—</strong><span>Extrapolated</span></div><div><strong id="ball-state">—</strong><span>Ball</span></div></div><p id="carrier" class="small">Tracking carrier: unknown</p><p id="raw-flags" class="small amber-text"></p></section><section class="panel evidence"><div class="eyebrow">PROVIDER CONTEXT <span id="context-frame"></span></div><div id="provider-context" class="small muted">Hidden during observation review. Enable the optional layer to inspect provider event candidates and phase labels.</div></section></div>
+      <p class="workspace-foot">Solid = provider-detected position · outlined = extrapolated position · labels are provider outputs or analyst judgements. A reconstruction does not establish tactical intent.</p>
+    </section>
+
+    <aside class="annotation panel">
+      <label for="marker-reviewer">Reviewer · set once</label><input id="marker-reviewer" maxlength="100" placeholder="Your name">
+      <section id="candidate-review">
+        <div class="eyebrow">PRESSURE CANDIDATES / FUNNEL REVIEW</div><h2>Review funneling</h2>
+        <p class="small muted">Start with proposed pressure episodes. Watch the build-up and judge whether defenders appear to direct the attack toward a restricted set of options.</p>
+        <label for="candidate-pool">Review pool</label><select id="candidate-pool">
+          <option value="pressure">Pressure + pressing candidates</option>
+          <option value="expanded">All engagement types · scope check needed</option>
+          <option value="manual">Your saved pressure examples · all reviewers</option>
+          <option value="audit">Outside-candidate windows · check for misses</option>
+        </select>
+        <label for="candidate-filter">Show</label><select id="candidate-filter"><option value="all">All</option><option value="unreviewed">Unreviewed</option><option value="reviewed">Funnel reviewed</option><option value="deferred">Outside scope / not pressure</option></select>
+        <button id="candidate-reload" class="quiet full" type="button">Reload queue</button>
+        <p id="candidate-count" class="small"></p>
+        <label for="candidate-select">Episode</label><select id="candidate-select"></select>
+        <div class="field-pair"><button id="candidate-prev" class="secondary" type="button">Previous + replay</button><button id="candidate-next" class="secondary" type="button">Next + replay</button></div>
+        <button id="candidate-go" class="quiet full" type="button">Replay with context</button>
+        <p id="candidate-source" class="small"></p><p id="candidate-flags" class="small amber-text"></p>
+        <details><summary>Source engagements</summary><div id="candidate-members" class="small"></div></details>
+        <div class="field-pair"><div><label for="candidate-start">Episode start frame</label><input id="candidate-start" type="number" min="0"></div><div><label for="candidate-end">Episode end frame</label><input id="candidate-end" type="number" min="0"></div></div>
+        <p class="tiny muted">Context is 3 seconds before and after the proposal. Replay continues through the full half. Edited bounds apply to your review; source bounds are retained.</p>
+        <fieldset id="candidate-decisions"><legend>Funneling observed?</legend>
+          <label class="check"><input type="radio" name="candidate-decision" value="yes"> Yes</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="no"> No · visible pressure without funneling</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="uncertain"> Unsure</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="unassessable"> Cannot assess · visibility</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="not_pressure"> Not a pressure episode</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="out_of_scope"> Outside current scope</label>
+          <label class="check"><input type="radio" name="candidate-decision" value="unreviewed" checked> Unreviewed / clear decision</label>
+        </fieldset>
+        <div id="candidate-scope-field" hidden><label for="candidate-scope">Excluded situation</label><select id="candidate-scope"><option value="counter_attack">Counter-attack</option><option value="fast_break">Fast break</option><option value="repress">Repress</option></select></div>
+        <div class="field-pair"><button id="candidate-save" class="primary" type="button">Save review</button><button id="candidate-save-next" class="secondary" type="button">Save + next replay</button></div>
+        <p id="candidate-status" class="small" role="status" aria-live="polite"></p>
+        <p id="candidate-comparison" class="small muted"></p>
+        <p class="tiny muted">Candidates are provider proposals, not confirmed pressure. A backwards pass or turnover alone does not establish funneling. Counter-attacks, fast breaks and represses remain deferred. Unreviewed time is not negative.</p>
+      </section>
+      <div class="divider"></div>
+      <section id="press-marker">
+        <div class="eyebrow">MANUAL FALLBACK / PRESS EVENTS</div><h2>Mark pressure</h2>
+        <p class="small muted">Watch the full half normally. Use the same button for the start and end of each event.</p>
+        <p id="marker-scope" class="scope-note small">Current pass excludes counter-attacks, fast breaks and represses. These are deferred, not negative examples.</p>
+        <button id="marker-toggle" class="primary full marker-toggle" type="button">Start pressure event · P</button>
+        <p id="marker-interval" class="small"></p>
+        <div id="marker-edit-bounds" class="field-pair" hidden><div><label for="marker-edit-start">Start frame</label><input id="marker-edit-start" type="number" min="0"><button id="marker-edit-start-cursor" class="quiet" type="button">Use cursor</button></div><div><label for="marker-edit-end">End frame</label><input id="marker-edit-end" type="number" min="0"><button id="marker-edit-end-cursor" class="quiet" type="button">Use cursor</button></div></div>
+        <div class="role-card"><div class="eyebrow">PRIMARY PRESSER · P</div><p id="marker-primary">Not assigned</p><button id="marker-replace-primary" class="quiet" type="button">Change primary</button></div>
+        <div class="role-card"><div class="eyebrow">SUPPORTING PRESSERS · S</div><div id="marker-support" class="small">None selected</div></div>
+        <p id="marker-click-hint" class="small muted">First player click = primary presser. Further same-team clicks toggle supporting pressers.</p>
+        <p class="tiny muted">P and S outlines show your nominations. Detection/extrapolation styles remain unchanged. Saved events are available in the candidate review's saved-examples pool after reloading the queue.</p>
+        <button id="marker-cancel" class="quiet full" type="button" hidden>Cancel unsaved event</button>
+        <p id="marker-status" class="small" role="status" aria-live="polite"></p>
+        <button id="marker-undo-delete" class="secondary full" type="button" hidden>Undo delete</button>
+        <div class="divider"></div><div id="marker-count" class="eyebrow">Saved press events</div><div id="marker-events"></div>
+      </section>
+    </aside>
+  </main>
+</body></html>

@@ -1,0 +1,38 @@
+{
+  "config_version": "4.0",
+  "pressure_candidates": {
+    "version": "engagement-candidates-1.0",
+    "gap_frames": 0,
+    "context_frames": 30
+  },
+  "press_review_scope": {
+    "version": "press-scope-1.1",
+    "description": "Pressure events excluding counter-attacks, fast breaks and represses",
+    "excluded_situations": ["counter_attack", "fast_break", "repress"],
+    "excluded_handling": "deferred_unreviewed",
+    "identification": "reviewer_judgement",
+    "automatic_phase_filter": false
+  },
+  "press_marker_protocol_version": "3.2",
+  "focused_review_protocol_version": "3.0",
+  "annotation_protocol_version": "2.0",
+  "direction_convention": "attacking_team_relative; no body-facing inference",
+  "scope": "Local retrospective replay and human annotation authorized by the project owner's next-step request",
+  "publication_enabled": false,
+  "provider_candidate_generation_enabled": true,
+  "automatic_detection_enabled": false,
+  "partition": "development",
+  "prior_exposure": "legacy_all_match_exploration",
+  "untouched_evaluation_set": [],
+  "review_match_ids": [
+    "1874553", "1886347", "1899585", "1925299", "1927964",
+    "1953632", "1959846", "1986691", "1996435", "1996436",
+    "2006229", "2006363", "2007448", "2007721", "2010085",
+    "2011166", "2013725", "2015213", "2016236", "2017461"
+  ],
+  "phase_interval": "[start,end)",
+  "possession_candidate_interval": "[start,end] with overlaps exposed",
+  "tracking_interpolation": false,
+  "native_fps": 10,
+  "source_release_eligibility": "pending; retain original Phase 0 manifest unchanged"
+}

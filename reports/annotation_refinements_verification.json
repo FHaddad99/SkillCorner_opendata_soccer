@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "software": {
+    "version": "0.4.0",
+    "implementation_sha256": "c2939203d013a7afb387cea7172e9b93c38c88ea1f96a3cdf88d6d59cc3b73c9",
+    "config_sha256": "713e338ebc390a554d0d6963efbfa206c890d6cd40761938e9b07445178f77f3",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "browser": "156.0.8078.47",
+  "checks": [
+    "legacy label visible without automatic conversion",
+    "no-funnel/limited-visibility rejection",
+    "independent press/funnel uncertainty",
+    "pre-interval cue stage",
+    "named receiver/support function",
+    "actor-specific extrapolation visibility",
+    "attacking-relative direction guide",
+    "raw-replay exposure despite unopened provider-outcome panel",
+    "separate quality revision",
+    "reload of schema 2 roles and judgements",
+    "sticky future exposure across revision",
+    "desktop/mobile rendering without browser errors"
+  ],
+  "human_annotation_file_unchanged": true,
+  "human_annotation_sha256": "d226e40eb7c06004e93d26b51f886d8a7dee52ff34112aed28648a589d0464d5",
+  "temporary_revisions_only": true,
+  "browser_errors": []
+}

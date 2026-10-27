@@ -1,0 +1,238 @@
+{
+  "status": "completed",
+  "software": {
+    "version": "0.7.0",
+    "implementation_sha256": "608916aa5f0342b1469604ebbe158c1108f44ebcf887df93efff3d890dedadce",
+    "config_sha256": "2f503e97aad4028c6bac07f5c949dcd44bf92ac9bc8ee0677b442875d7ab58ec",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "policy": {
+    "version": "engagement-candidates-1.0",
+    "gap_frames": 0,
+    "context_frames": 30
+  },
+  "matches": [
+    {
+      "match_id": "1874553",
+      "source_pressure_pressing_engagements": 430,
+      "represented_engagements": 430,
+      "candidate_episodes": 396,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 6,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1886347",
+      "source_pressure_pressing_engagements": 480,
+      "represented_engagements": 480,
+      "candidate_episodes": 455,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1899585",
+      "source_pressure_pressing_engagements": 409,
+      "represented_engagements": 409,
+      "candidate_episodes": 380,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1925299",
+      "source_pressure_pressing_engagements": 463,
+      "represented_engagements": 463,
+      "candidate_episodes": 427,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1927964",
+      "source_pressure_pressing_engagements": 480,
+      "represented_engagements": 480,
+      "candidate_episodes": 447,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1953632",
+      "source_pressure_pressing_engagements": 447,
+      "represented_engagements": 446,
+      "candidate_episodes": 429,
+      "omitted_unresolved_engagements": 1,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1959846",
+      "source_pressure_pressing_engagements": 408,
+      "represented_engagements": 408,
+      "candidate_episodes": 382,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1986691",
+      "source_pressure_pressing_engagements": 397,
+      "represented_engagements": 397,
+      "candidate_episodes": 374,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1996435",
+      "source_pressure_pressing_engagements": 494,
+      "represented_engagements": 494,
+      "candidate_episodes": 458,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "1996436",
+      "source_pressure_pressing_engagements": 338,
+      "represented_engagements": 338,
+      "candidate_episodes": 313,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2006229",
+      "source_pressure_pressing_engagements": 495,
+      "represented_engagements": 495,
+      "candidate_episodes": 463,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2006363",
+      "source_pressure_pressing_engagements": 472,
+      "represented_engagements": 472,
+      "candidate_episodes": 442,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2007448",
+      "source_pressure_pressing_engagements": 409,
+      "represented_engagements": 409,
+      "candidate_episodes": 377,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2007721",
+      "source_pressure_pressing_engagements": 416,
+      "represented_engagements": 416,
+      "candidate_episodes": 391,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2010085",
+      "source_pressure_pressing_engagements": 402,
+      "represented_engagements": 402,
+      "candidate_episodes": 381,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2011166",
+      "source_pressure_pressing_engagements": 329,
+      "represented_engagements": 329,
+      "candidate_episodes": 304,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2013725",
+      "source_pressure_pressing_engagements": 424,
+      "represented_engagements": 424,
+      "candidate_episodes": 393,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2015213",
+      "source_pressure_pressing_engagements": 411,
+      "represented_engagements": 411,
+      "candidate_episodes": 384,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2016236",
+      "source_pressure_pressing_engagements": 411,
+      "represented_engagements": 411,
+      "candidate_episodes": 386,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    },
+    {
+      "match_id": "2017461",
+      "source_pressure_pressing_engagements": 320,
+      "represented_engagements": 320,
+      "candidate_episodes": 298,
+      "omitted_unresolved_engagements": 0,
+      "flagged_tracking_gap_episodes": 0,
+      "saved_human_examples": 0,
+      "human_examples_without_overlap": 0
+    }
+  ],
+  "omitted_engagements": [
+    {
+      "match_id": "1953632",
+      "event_id": "9_726",
+      "period": "2",
+      "frame_start": "55586",
+      "frame_end": "55597",
+      "player_id": "973077",
+      "reason": "Defender ID absent from match roster"
+    }
+  ],
+  "totals": {
+    "source_pressure_pressing_engagements": 8435,
+    "represented_engagements": 8434,
+    "candidate_episodes": 7880,
+    "omitted_unresolved_engagements": 1,
+    "flagged_tracking_gap_episodes": 0,
+    "saved_human_examples": 6,
+    "human_examples_without_overlap": 0
+  },
+  "interpretation": "Provider-derived proposals, not confirmed pressure or funneling. Overlap is not full-match recall; source bounds and carrier identities require review. No outcome filtering or human annotation writes."
+}

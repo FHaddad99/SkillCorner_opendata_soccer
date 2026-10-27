@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "software": {
+    "version": "0.3.0",
+    "implementation_sha256": "281b1939395b77e4e3fc82db1fd75a703123e9cef34d660cafaa01710b47ae80",
+    "config_sha256": "f1a89ead32fe4c6a8d0a969ee97b93060961fc0550a13aab67f0a8ee2deb8680",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "browser": "156.0.8078.47",
+  "checks": [
+    "focused mode default",
+    "no mandatory detailed form",
+    "one-key decision without moving replay",
+    "mark intervals while full-half playback continues",
+    "pass switches do not pause or seek",
+    "explicit interval jump only",
+    "independent press/funnel/cue passes",
+    "cue types stay distinct",
+    "skip stays out of negatives",
+    "exact shared sequence IDs",
+    "combined conflict flag",
+    "saved decisions restored after reload",
+    "detailed mode remains available",
+    "desktop/mobile without browser errors"
+  ],
+  "temporary_test_decisions": 5,
+  "human_annotation_file_unchanged": true,
+  "human_annotation_sha256": "d226e40eb7c06004e93d26b51f886d8a7dee52ff34112aed28648a589d0464d5",
+  "browser_errors": []
+}

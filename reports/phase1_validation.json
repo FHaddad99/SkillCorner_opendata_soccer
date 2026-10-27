@@ -1,0 +1,880 @@
+{
+  "generated_utc": "2026-10-26T20:56:50.574422+00:00",
+  "python": "3.14.5",
+  "status": "passed",
+  "scope": "20 matches; four input hashes and four native period-boundary frames per match",
+  "software": {
+    "version": "0.1.0",
+    "implementation_sha256": "8a2ab5ea73b8b7fdad52209f8faff625134cd5f7af352735ca4bfad456e1b439",
+    "config_sha256": "ef2056c2a73f997a1ddb2b19bc7d8f3fe772c2ad254e41e079439783ba34b100",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "matches": [
+    {
+      "match_id": "1874553",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28990,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 29000,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 60300,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.105
+    },
+    {
+      "match_id": "1886347",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 27790,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 27800,
+          "quality": {
+            "detected": 17,
+            "extrapolated": 5,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59060,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.089
+    },
+    {
+      "match_id": "1899585",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 20,
+            "extrapolated": 2,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 29760,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 29770,
+          "quality": {
+            "detected": 16,
+            "extrapolated": 6,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 60529,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.048
+    },
+    {
+      "match_id": "1925299",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 30240,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 30250,
+          "quality": {
+            "detected": 17,
+            "extrapolated": 5,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 61300,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.174
+    },
+    {
+      "match_id": "1927964",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28380,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28390,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59069,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.123
+    },
+    {
+      "match_id": "1953632",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28970,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28980,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59249,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.096
+    },
+    {
+      "match_id": "1959846",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 0,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 27960,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 27970,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 58540,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.095
+    },
+    {
+      "match_id": "1986691",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 20,
+            "extrapolated": 2,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 27780,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 27790,
+          "quality": {
+            "detected": 20,
+            "extrapolated": 2,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59089,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.078
+    },
+    {
+      "match_id": "1996435",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 20,
+            "extrapolated": 2,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28020,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28030,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 57620,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.084
+    },
+    {
+      "match_id": "1996436",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 30140,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 30150,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 60279,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.064
+    },
+    {
+      "match_id": "2006229",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28480,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28490,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59269,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.106
+    },
+    {
+      "match_id": "2006363",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28950,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28960,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 59090,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.089
+    },
+    {
+      "match_id": "2007448",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 28530,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 28540,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 58080,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.099
+    },
+    {
+      "match_id": "2007721",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 27710,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 27720,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 57560,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.107
+    },
+    {
+      "match_id": "2010085",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 10,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 29440,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 29450,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 58990,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.1
+    },
+    {
+      "match_id": "2011166",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 2300,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 31290,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 41090,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 71390,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.053
+    },
+    {
+      "match_id": "2013725",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 4040,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 31930,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 40960,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 69860,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.163
+    },
+    {
+      "match_id": "2015213",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 2210,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 31040,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 40280,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 22,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 71350,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.214
+    },
+    {
+      "match_id": "2016236",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 1170,
+          "quality": {
+            "detected": 17,
+            "extrapolated": 5,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 31720,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 41060,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 70550,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.15
+    },
+    {
+      "match_id": "2017461",
+      "input_hashes_verified": 4,
+      "native_period_boundary_checks": [
+        {
+          "period": 1,
+          "frame": 2510,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 1,
+          "frame": 30210,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 39670,
+          "quality": {
+            "detected": 18,
+            "extrapolated": 4,
+            "invalid_xy": 0
+          }
+        },
+        {
+          "period": 2,
+          "frame": 70420,
+          "quality": {
+            "detected": 0,
+            "extrapolated": 0,
+            "invalid_xy": 0
+          }
+        }
+      ],
+      "load_and_check_seconds": 1.071
+    }
+  ],
+  "limitations": [
+    "Not a frame-by-frame visual review.",
+    "No human tactical annotations or detector validity established.",
+    "Source-release and redistribution eligibility remain pending."
+  ]
+}

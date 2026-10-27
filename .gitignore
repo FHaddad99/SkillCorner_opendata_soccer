@@ -23,3 +23,6 @@ notebooks/exploratory/
 # MkDocs
 site/
 .cache/
+
+# Local PressLens review history and browser QA artifacts
+.presslens/

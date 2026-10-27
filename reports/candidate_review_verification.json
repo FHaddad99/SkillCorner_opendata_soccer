@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "software": {
+    "version": "0.7.0",
+    "implementation_sha256": "608916aa5f0342b1469604ebbe158c1108f44ebcf887df93efff3d890dedadce",
+    "config_sha256": "2f503e97aad4028c6bac07f5c949dcd44bf92ac9bc8ee0677b442875d7ab58ec",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "checks": [
+    "provider queue loaded without moving replay",
+    "explicit context navigation",
+    "yes review saves while full-half playback continues",
+    "review survives reload",
+    "bounds edits retain source bounds and change sequence identity",
+    "stale API revision rejected",
+    "repress deferred without funnel negative",
+    "review filters and save-next navigation",
+    "ordinary save keeps the episode selected when its decision leaves the current filter",
+    "expanded/manual/noncandidate pools",
+    "complete review history export",
+    "desktop/mobile without browser errors"
+  ],
+  "human_files_unchanged": true,
+  "browser_errors": [],
+  "original_human_file_sha256": {
+    "annotations.jsonl": "d226e40eb7c06004e93d26b51f886d8a7dee52ff34112aed28648a589d0464d5",
+    "pass_reviews.jsonl": "658e284e68aa05e3f15a47d04bbc7e7c8a5fb2065f6f7b60369f581f8ad2f146",
+    "review_sequences.jsonl": "af71c57916f65ace7cc96e956e1ee3be48ad844d4d1873835ed66cf9c4c1d642",
+    "candidate_reviews.jsonl": null
+  }
+}

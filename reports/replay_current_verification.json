@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "software": {
+    "version": "0.7.0",
+    "implementation_sha256": "608916aa5f0342b1469604ebbe158c1108f44ebcf887df93efff3d890dedadce",
+    "config_sha256": "2f503e97aad4028c6bac07f5c949dcd44bf92ac9bc8ee0677b442875d7ab58ec",
+    "git_commit": "3ef457ca9893b9e19e564a12a89d659091339f60",
+    "working_tree_note": "Implementation hash identifies runtime source, including uncommitted files."
+  },
+  "checks": [
+    "20 match catalogue",
+    "carrier and phase conflicts",
+    "native frame and keyboard steps",
+    "full-half playback and speed",
+    "half selection",
+    "extrapolation display toggle",
+    "detailed tab/form removed",
+    "legacy history preserved in download",
+    "no browser errors"
+  ],
+  "human_annotation_sha256": "d226e40eb7c06004e93d26b51f886d8a7dee52ff34112aed28648a589d0464d5",
+  "browser_errors": []
+}

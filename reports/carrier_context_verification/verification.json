@@ -1,0 +1,1683 @@
+{
+  "generated_utc": "2026-10-26T20:32:09.503579+00:00",
+  "method": "Independent raw-source pass; integer IDs; all phase memberships enumerated; no inferred carrier labels.",
+  "script_sha256": "66aeca0b3b75c20e1b49303ed500a4d531460392e30ec29212e183415ca8b94b",
+  "all_80_input_hashes_match_original_manifest": true,
+  "counts": {
+    "all_tracking_rows": 1244814,
+    "outside_period_1_2": 62570,
+    "period_frames": 1182244,
+    "null_carrier_period_frames": 975572,
+    "possession_start_rows": 18792,
+    "start_null_carrier": 10699,
+    "start_same_carrier": 7640,
+    "start_known_carrier": 8093,
+    "start_known_carrier_disagreement": 453,
+    "event_player_metadata_team_disagreement": 1,
+    "half_open_any_phase": 18762,
+    "half_open_multiple_phases": 0,
+    "half_open_no_team_match": 288,
+    "inclusive_any_phase": 18771,
+    "inclusive_multiple_phases": 2719,
+    "inclusive_no_team_match": 291,
+    "strict_interior_any_phase": 15875,
+    "strict_interior_multiple_phases": 0,
+    "strict_interior_no_team_match": 288,
+    "latest_start_half_open_phase_present": 18762,
+    "latest_start_half_open_phase_disagreement": 288,
+    "phase_disagreement_and_carrier_disagreement": 7,
+    "carrier_mismatch_opposite_team": 367,
+    "carrier_mismatch_event_player_seen_later_in_event": 60,
+    "mismatch_agrees_at_offset_-10": 0,
+    "mismatch_agrees_at_offset_-5": 0,
+    "mismatch_agrees_at_offset_-2": 0,
+    "mismatch_agrees_at_offset_-1": 0,
+    "mismatch_agrees_at_offset_0": 0,
+    "mismatch_agrees_at_offset_1": 0,
+    "mismatch_agrees_at_offset_2": 1,
+    "mismatch_agrees_at_offset_5": 2,
+    "mismatch_agrees_at_offset_10": 20,
+    "phase_conflicts_at_any_boundary": 0,
+    "phase_conflicts_with_inclusive_team_match": 0,
+    "phase_conflict_phase_index_team_agrees": 7
+  },
+  "carrier_missingness_subsets": {
+    "period_1_2": {
+      "frames": 1182244,
+      "null_carrier": 975572
+    },
+    "ball_xy_finite": {
+      "frames": 878863,
+      "null_carrier": 672199
+    },
+    "players_present": {
+      "frames": 878863,
+      "null_carrier": 672199
+    },
+    "ball_detected_and_xy_finite": {
+      "frames": 704845,
+      "null_carrier": 498395
+    },
+    "phase_covered_half_open": {
+      "frames": 629755,
+      "null_carrier": 427089
+    },
+    "tracking_team_group_nonnull": {
+      "frames": 639048,
+      "null_carrier": 432376
+    },
+    "possession_event_covered_half_open": {
+      "frames": 292512,
+      "null_carrier": 139885
+    }
+  },
+  "matches": [
+    {
+      "match_id": "1874553",
+      "counts": {
+        "all_tracking_rows": 60301,
+        "outside_period_1_2": 19,
+        "period_frames": 60282,
+        "null_carrier_period_frames": 48691,
+        "possession_start_rows": 959,
+        "start_null_carrier": 530,
+        "start_same_carrier": 400,
+        "start_known_carrier": 429,
+        "start_known_carrier_disagreement": 29,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 959,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 9,
+        "inclusive_any_phase": 959,
+        "inclusive_multiple_phases": 132,
+        "inclusive_no_team_match": 9,
+        "strict_interior_any_phase": 819,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 9,
+        "latest_start_half_open_phase_present": 959,
+        "latest_start_half_open_phase_disagreement": 9,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 23,
+        "carrier_mismatch_event_player_seen_later_in_event": 5,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 1,
+        "mismatch_agrees_at_offset_10": 2,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 2
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 60282,
+          "null_carrier": 48691
+        },
+        "ball_xy_finite": {
+          "frames": 44244,
+          "null_carrier": 32655
+        },
+        "players_present": {
+          "frames": 44244,
+          "null_carrier": 32655
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 36401,
+          "null_carrier": 24812
+        },
+        "phase_covered_half_open": {
+          "frames": 32724,
+          "null_carrier": 21322
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32901,
+          "null_carrier": 21310
+        },
+        "possession_event_covered_half_open": {
+          "frames": 16298,
+          "null_carrier": 7530
+        }
+      },
+      "tracking_group_values": {
+        "None": 27381,
+        "home team": 13040,
+        "away team": 19861
+      }
+    },
+    {
+      "match_id": "1886347",
+      "counts": {
+        "all_tracking_rows": 59061,
+        "outside_period_1_2": 19,
+        "period_frames": 59042,
+        "null_carrier_period_frames": 48555,
+        "possession_start_rows": 999,
+        "start_null_carrier": 523,
+        "start_same_carrier": 454,
+        "start_known_carrier": 476,
+        "start_known_carrier_disagreement": 22,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 997,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 18,
+        "inclusive_any_phase": 997,
+        "inclusive_multiple_phases": 117,
+        "inclusive_no_team_match": 18,
+        "strict_interior_any_phase": 876,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 18,
+        "latest_start_half_open_phase_present": 997,
+        "latest_start_half_open_phase_disagreement": 18,
+        "phase_disagreement_and_carrier_disagreement": 1,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0,
+        "carrier_mismatch_opposite_team": 15,
+        "carrier_mismatch_event_player_seen_later_in_event": 1,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 1
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59042,
+          "null_carrier": 48555
+        },
+        "ball_xy_finite": {
+          "frames": 43458,
+          "null_carrier": 32971
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 35750,
+          "null_carrier": 25267
+        },
+        "players_present": {
+          "frames": 43458,
+          "null_carrier": 32971
+        },
+        "phase_covered_half_open": {
+          "frames": 31711,
+          "null_carrier": 21465
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32100,
+          "null_carrier": 21613
+        },
+        "possession_event_covered_half_open": {
+          "frames": 13726,
+          "null_carrier": 6515
+        }
+      },
+      "tracking_group_values": {
+        "None": 26942,
+        "away team": 13659,
+        "home team": 18441
+      }
+    },
+    {
+      "match_id": "1899585",
+      "counts": {
+        "all_tracking_rows": 60530,
+        "outside_period_1_2": 19,
+        "period_frames": 60511,
+        "null_carrier_period_frames": 51553,
+        "possession_start_rows": 929,
+        "start_null_carrier": 552,
+        "start_same_carrier": 356,
+        "start_known_carrier": 377,
+        "start_known_carrier_disagreement": 21,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 929,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 20,
+        "inclusive_any_phase": 929,
+        "inclusive_multiple_phases": 158,
+        "inclusive_no_team_match": 20,
+        "strict_interior_any_phase": 765,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 20,
+        "latest_start_half_open_phase_present": 929,
+        "latest_start_half_open_phase_disagreement": 20,
+        "phase_disagreement_and_carrier_disagreement": 1,
+        "carrier_mismatch_opposite_team": 15,
+        "carrier_mismatch_event_player_seen_later_in_event": 1,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 60511,
+          "null_carrier": 51553
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 29576,
+          "null_carrier": 20618
+        },
+        "ball_xy_finite": {
+          "frames": 40681,
+          "null_carrier": 31723
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 31826,
+          "null_carrier": 22876
+        },
+        "players_present": {
+          "frames": 40681,
+          "null_carrier": 31723
+        },
+        "phase_covered_half_open": {
+          "frames": 29994,
+          "null_carrier": 21307
+        },
+        "possession_event_covered_half_open": {
+          "frames": 12260,
+          "null_carrier": 5936
+        }
+      },
+      "tracking_group_values": {
+        "away team": 13857,
+        "home team": 15719,
+        "None": 30935
+      }
+    },
+    {
+      "match_id": "1925299",
+      "counts": {
+        "all_tracking_rows": 61301,
+        "outside_period_1_2": 19,
+        "period_frames": 61282,
+        "null_carrier_period_frames": 49179,
+        "possession_start_rows": 1062,
+        "start_null_carrier": 561,
+        "start_same_carrier": 475,
+        "start_known_carrier": 501,
+        "start_known_carrier_disagreement": 26,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 1061,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 10,
+        "inclusive_any_phase": 1062,
+        "inclusive_multiple_phases": 144,
+        "inclusive_no_team_match": 11,
+        "strict_interior_any_phase": 914,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 10,
+        "latest_start_half_open_phase_present": 1061,
+        "latest_start_half_open_phase_disagreement": 10,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 20,
+        "carrier_mismatch_event_player_seen_later_in_event": 2,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 61282,
+          "null_carrier": 49179
+        },
+        "ball_xy_finite": {
+          "frames": 47942,
+          "null_carrier": 35839
+        },
+        "players_present": {
+          "frames": 47942,
+          "null_carrier": 35839
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 38618,
+          "null_carrier": 26568
+        },
+        "phase_covered_half_open": {
+          "frames": 35496,
+          "null_carrier": 23618
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 35589,
+          "null_carrier": 23486
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15948,
+          "null_carrier": 7112
+        }
+      },
+      "tracking_group_values": {
+        "None": 25693,
+        "home team": 22367,
+        "away team": 13222
+      }
+    },
+    {
+      "match_id": "1927964",
+      "counts": {
+        "all_tracking_rows": 59070,
+        "outside_period_1_2": 19,
+        "period_frames": 59051,
+        "null_carrier_period_frames": 44353,
+        "possession_start_rows": 1140,
+        "start_null_carrier": 609,
+        "start_same_carrier": 516,
+        "start_known_carrier": 531,
+        "start_known_carrier_disagreement": 15,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 1137,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 9,
+        "inclusive_any_phase": 1137,
+        "inclusive_multiple_phases": 109,
+        "inclusive_no_team_match": 9,
+        "strict_interior_any_phase": 1023,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 9,
+        "latest_start_half_open_phase_present": 1137,
+        "latest_start_half_open_phase_disagreement": 9,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 12,
+        "carrier_mismatch_event_player_seen_later_in_event": 1,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59051,
+          "null_carrier": 44353
+        },
+        "ball_xy_finite": {
+          "frames": 44759,
+          "null_carrier": 30061
+        },
+        "players_present": {
+          "frames": 44759,
+          "null_carrier": 30061
+        },
+        "phase_covered_half_open": {
+          "frames": 37123,
+          "null_carrier": 22566
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 38215,
+          "null_carrier": 23526
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 37398,
+          "null_carrier": 22700
+        },
+        "possession_event_covered_half_open": {
+          "frames": 18926,
+          "null_carrier": 7761
+        }
+      },
+      "tracking_group_values": {
+        "None": 21653,
+        "away team": 18474,
+        "home team": 18924
+      }
+    },
+    {
+      "match_id": "1953632",
+      "counts": {
+        "all_tracking_rows": 59250,
+        "outside_period_1_2": 19,
+        "period_frames": 59231,
+        "null_carrier_period_frames": 47726,
+        "possession_start_rows": 979,
+        "start_null_carrier": 538,
+        "start_same_carrier": 422,
+        "start_known_carrier": 441,
+        "start_known_carrier_disagreement": 19,
+        "event_player_metadata_team_disagreement": 1,
+        "half_open_any_phase": 976,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 9,
+        "inclusive_any_phase": 977,
+        "inclusive_multiple_phases": 110,
+        "inclusive_no_team_match": 9,
+        "strict_interior_any_phase": 862,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 9,
+        "latest_start_half_open_phase_present": 976,
+        "latest_start_half_open_phase_disagreement": 9,
+        "phase_disagreement_and_carrier_disagreement": 1,
+        "carrier_mismatch_opposite_team": 16,
+        "carrier_mismatch_event_player_seen_later_in_event": 4,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 3,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59231,
+          "null_carrier": 47726
+        },
+        "ball_xy_finite": {
+          "frames": 43912,
+          "null_carrier": 32407
+        },
+        "players_present": {
+          "frames": 43912,
+          "null_carrier": 32407
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 35038,
+          "null_carrier": 23537
+        },
+        "phase_covered_half_open": {
+          "frames": 32741,
+          "null_carrier": 21353
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 33359,
+          "null_carrier": 21854
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15471,
+          "null_carrier": 6708
+        }
+      },
+      "tracking_group_values": {
+        "None": 25872,
+        "away team": 21956,
+        "home team": 11403
+      }
+    },
+    {
+      "match_id": "1959846",
+      "counts": {
+        "all_tracking_rows": 58541,
+        "period_frames": 58532,
+        "null_carrier_period_frames": 48553,
+        "outside_period_1_2": 9,
+        "possession_start_rows": 946,
+        "start_null_carrier": 572,
+        "start_same_carrier": 354,
+        "start_known_carrier": 374,
+        "start_known_carrier_disagreement": 20,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 945,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 6,
+        "inclusive_any_phase": 946,
+        "inclusive_multiple_phases": 113,
+        "inclusive_no_team_match": 7,
+        "strict_interior_any_phase": 770,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 6,
+        "latest_start_half_open_phase_present": 945,
+        "latest_start_half_open_phase_disagreement": 6,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 19,
+        "carrier_mismatch_event_player_seen_later_in_event": 3,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 58532,
+          "null_carrier": 48553
+        },
+        "phase_covered_half_open": {
+          "frames": 29799,
+          "null_carrier": 19959
+        },
+        "possession_event_covered_half_open": {
+          "frames": 14720,
+          "null_carrier": 7147
+        },
+        "ball_xy_finite": {
+          "frames": 42739,
+          "null_carrier": 32760
+        },
+        "players_present": {
+          "frames": 42739,
+          "null_carrier": 32760
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 34824,
+          "null_carrier": 24845
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 31073,
+          "null_carrier": 21094
+        }
+      },
+      "tracking_group_values": {
+        "None": 27459,
+        "home team": 15339,
+        "away team": 15734
+      }
+    },
+    {
+      "match_id": "1986691",
+      "counts": {
+        "all_tracking_rows": 59090,
+        "outside_period_1_2": 19,
+        "period_frames": 59071,
+        "null_carrier_period_frames": 48920,
+        "possession_start_rows": 915,
+        "start_null_carrier": 513,
+        "start_same_carrier": 386,
+        "start_known_carrier": 402,
+        "start_known_carrier_disagreement": 16,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 914,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 21,
+        "inclusive_any_phase": 915,
+        "inclusive_multiple_phases": 127,
+        "inclusive_no_team_match": 21,
+        "strict_interior_any_phase": 784,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 21,
+        "latest_start_half_open_phase_present": 914,
+        "latest_start_half_open_phase_disagreement": 21,
+        "phase_disagreement_and_carrier_disagreement": 1,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0,
+        "carrier_mismatch_opposite_team": 14,
+        "carrier_mismatch_event_player_seen_later_in_event": 6,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 3
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59071,
+          "null_carrier": 48920
+        },
+        "ball_xy_finite": {
+          "frames": 43076,
+          "null_carrier": 32925
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 34019,
+          "null_carrier": 23871
+        },
+        "players_present": {
+          "frames": 43076,
+          "null_carrier": 32925
+        },
+        "phase_covered_half_open": {
+          "frames": 31567,
+          "null_carrier": 21562
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32060,
+          "null_carrier": 21909
+        },
+        "possession_event_covered_half_open": {
+          "frames": 14271,
+          "null_carrier": 6767
+        }
+      },
+      "tracking_group_values": {
+        "None": 27011,
+        "home team": 14404,
+        "away team": 17656
+      }
+    },
+    {
+      "match_id": "1996435",
+      "counts": {
+        "all_tracking_rows": 57621,
+        "outside_period_1_2": 19,
+        "period_frames": 57602,
+        "null_carrier_period_frames": 46787,
+        "possession_start_rows": 1005,
+        "start_null_carrier": 550,
+        "start_same_carrier": 427,
+        "start_known_carrier": 455,
+        "start_known_carrier_disagreement": 28,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 1003,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 23,
+        "inclusive_any_phase": 1003,
+        "inclusive_multiple_phases": 135,
+        "inclusive_no_team_match": 23,
+        "strict_interior_any_phase": 862,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 23,
+        "latest_start_half_open_phase_present": 1003,
+        "latest_start_half_open_phase_disagreement": 23,
+        "phase_disagreement_and_carrier_disagreement": 1,
+        "carrier_mismatch_opposite_team": 24,
+        "carrier_mismatch_event_player_seen_later_in_event": 2,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 57602,
+          "null_carrier": 46787
+        },
+        "ball_xy_finite": {
+          "frames": 43531,
+          "null_carrier": 32716
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 34701,
+          "null_carrier": 23949
+        },
+        "players_present": {
+          "frames": 43531,
+          "null_carrier": 32716
+        },
+        "phase_covered_half_open": {
+          "frames": 32112,
+          "null_carrier": 21453
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32590,
+          "null_carrier": 21775
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15295,
+          "null_carrier": 7433
+        }
+      },
+      "tracking_group_values": {
+        "None": 25012,
+        "away team": 15491,
+        "home team": 17099
+      }
+    },
+    {
+      "match_id": "1996436",
+      "counts": {
+        "all_tracking_rows": 60280,
+        "outside_period_1_2": 19,
+        "period_frames": 60261,
+        "null_carrier_period_frames": 51718,
+        "possession_start_rows": 786,
+        "start_null_carrier": 494,
+        "start_same_carrier": 271,
+        "start_known_carrier": 292,
+        "start_known_carrier_disagreement": 21,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 786,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 20,
+        "inclusive_any_phase": 786,
+        "inclusive_multiple_phases": 119,
+        "inclusive_no_team_match": 20,
+        "strict_interior_any_phase": 659,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 20,
+        "latest_start_half_open_phase_present": 786,
+        "latest_start_half_open_phase_disagreement": 20,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0,
+        "carrier_mismatch_opposite_team": 20,
+        "carrier_mismatch_event_player_seen_later_in_event": 0,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 60261,
+          "null_carrier": 51718
+        },
+        "ball_xy_finite": {
+          "frames": 43066,
+          "null_carrier": 34523
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 32785,
+          "null_carrier": 24249
+        },
+        "players_present": {
+          "frames": 43066,
+          "null_carrier": 34523
+        },
+        "phase_covered_half_open": {
+          "frames": 27023,
+          "null_carrier": 18853
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 27576,
+          "null_carrier": 19033
+        },
+        "possession_event_covered_half_open": {
+          "frames": 12317,
+          "null_carrier": 6243
+        }
+      },
+      "tracking_group_values": {
+        "None": 32685,
+        "away team": 13108,
+        "home team": 14468
+      }
+    },
+    {
+      "match_id": "2006229",
+      "counts": {
+        "all_tracking_rows": 59270,
+        "outside_period_1_2": 19,
+        "period_frames": 59251,
+        "null_carrier_period_frames": 48482,
+        "possession_start_rows": 979,
+        "start_null_carrier": 539,
+        "start_same_carrier": 422,
+        "start_known_carrier": 440,
+        "start_known_carrier_disagreement": 18,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 979,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 10,
+        "inclusive_any_phase": 979,
+        "inclusive_multiple_phases": 142,
+        "inclusive_no_team_match": 10,
+        "strict_interior_any_phase": 832,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 10,
+        "latest_start_half_open_phase_present": 979,
+        "latest_start_half_open_phase_disagreement": 10,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 14,
+        "carrier_mismatch_event_player_seen_later_in_event": 2,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 1
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59251,
+          "null_carrier": 48482
+        },
+        "ball_xy_finite": {
+          "frames": 44171,
+          "null_carrier": 33402
+        },
+        "players_present": {
+          "frames": 44171,
+          "null_carrier": 33402
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 35881,
+          "null_carrier": 25112
+        },
+        "phase_covered_half_open": {
+          "frames": 32547,
+          "null_carrier": 21888
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32452,
+          "null_carrier": 21683
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15235,
+          "null_carrier": 7083
+        }
+      },
+      "tracking_group_values": {
+        "None": 26799,
+        "away team": 13282,
+        "home team": 19170
+      }
+    },
+    {
+      "match_id": "2006363",
+      "counts": {
+        "all_tracking_rows": 59101,
+        "outside_period_1_2": 29,
+        "period_frames": 59072,
+        "null_carrier_period_frames": 48113,
+        "possession_start_rows": 976,
+        "start_null_carrier": 547,
+        "start_same_carrier": 404,
+        "start_known_carrier": 429,
+        "start_known_carrier_disagreement": 25,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 968,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 14,
+        "inclusive_any_phase": 969,
+        "inclusive_multiple_phases": 126,
+        "inclusive_no_team_match": 14,
+        "strict_interior_any_phase": 837,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 14,
+        "latest_start_half_open_phase_present": 968,
+        "latest_start_half_open_phase_disagreement": 14,
+        "phase_disagreement_and_carrier_disagreement": 2,
+        "carrier_mismatch_opposite_team": 20,
+        "carrier_mismatch_event_player_seen_later_in_event": 4,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 3,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59072,
+          "null_carrier": 48113
+        },
+        "phase_covered_half_open": {
+          "frames": 32407,
+          "null_carrier": 21573
+        },
+        "possession_event_covered_half_open": {
+          "frames": 16328,
+          "null_carrier": 8028
+        },
+        "ball_xy_finite": {
+          "frames": 44347,
+          "null_carrier": 33388
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 36160,
+          "null_carrier": 25201
+        },
+        "players_present": {
+          "frames": 44347,
+          "null_carrier": 33388
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32854,
+          "null_carrier": 21895
+        }
+      },
+      "tracking_group_values": {
+        "None": 26218,
+        "home team": 17452,
+        "away team": 15402
+      }
+    },
+    {
+      "match_id": "2007448",
+      "counts": {
+        "all_tracking_rows": 58081,
+        "outside_period_1_2": 19,
+        "period_frames": 58062,
+        "null_carrier_period_frames": 48507,
+        "possession_start_rows": 863,
+        "start_null_carrier": 483,
+        "start_same_carrier": 359,
+        "start_known_carrier": 380,
+        "start_known_carrier_disagreement": 21,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 862,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 10,
+        "inclusive_any_phase": 863,
+        "inclusive_multiple_phases": 123,
+        "inclusive_no_team_match": 10,
+        "strict_interior_any_phase": 732,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 10,
+        "latest_start_half_open_phase_present": 862,
+        "latest_start_half_open_phase_disagreement": 10,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 17,
+        "carrier_mismatch_event_player_seen_later_in_event": 2,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 2,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 58062,
+          "null_carrier": 48507
+        },
+        "phase_covered_half_open": {
+          "frames": 29232,
+          "null_carrier": 20039
+        },
+        "possession_event_covered_half_open": {
+          "frames": 13219,
+          "null_carrier": 6528
+        },
+        "ball_xy_finite": {
+          "frames": 44283,
+          "null_carrier": 34734
+        },
+        "players_present": {
+          "frames": 44283,
+          "null_carrier": 34734
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 34600,
+          "null_carrier": 25058
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 29675,
+          "null_carrier": 20120
+        }
+      },
+      "tracking_group_values": {
+        "None": 28387,
+        "home team": 14784,
+        "away team": 14891
+      }
+    },
+    {
+      "match_id": "2007721",
+      "counts": {
+        "all_tracking_rows": 57571,
+        "outside_period_1_2": 29,
+        "period_frames": 57542,
+        "null_carrier_period_frames": 45493,
+        "possession_start_rows": 959,
+        "start_null_carrier": 520,
+        "start_same_carrier": 411,
+        "start_known_carrier": 439,
+        "start_known_carrier_disagreement": 28,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 957,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 11,
+        "inclusive_any_phase": 957,
+        "inclusive_multiple_phases": 138,
+        "inclusive_no_team_match": 11,
+        "strict_interior_any_phase": 813,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 11,
+        "latest_start_half_open_phase_present": 957,
+        "latest_start_half_open_phase_disagreement": 11,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 24,
+        "carrier_mismatch_event_player_seen_later_in_event": 6,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 1,
+        "mismatch_agrees_at_offset_5": 1,
+        "mismatch_agrees_at_offset_10": 2,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 57542,
+          "null_carrier": 45493
+        },
+        "ball_xy_finite": {
+          "frames": 46297,
+          "null_carrier": 34248
+        },
+        "players_present": {
+          "frames": 46297,
+          "null_carrier": 34248
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 37146,
+          "null_carrier": 25117
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 34069,
+          "null_carrier": 22020
+        },
+        "phase_covered_half_open": {
+          "frames": 33387,
+          "null_carrier": 21525
+        },
+        "possession_event_covered_half_open": {
+          "frames": 16269,
+          "null_carrier": 6963
+        }
+      },
+      "tracking_group_values": {
+        "None": 23473,
+        "home team": 16838,
+        "away team": 17231
+      }
+    },
+    {
+      "match_id": "2010085",
+      "counts": {
+        "all_tracking_rows": 58991,
+        "outside_period_1_2": 19,
+        "period_frames": 58972,
+        "null_carrier_period_frames": 47613,
+        "possession_start_rows": 935,
+        "start_null_carrier": 494,
+        "start_same_carrier": 414,
+        "start_known_carrier": 441,
+        "start_known_carrier_disagreement": 27,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 931,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 8,
+        "inclusive_any_phase": 932,
+        "inclusive_multiple_phases": 120,
+        "inclusive_no_team_match": 8,
+        "strict_interior_any_phase": 808,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 8,
+        "latest_start_half_open_phase_present": 931,
+        "latest_start_half_open_phase_disagreement": 8,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0,
+        "carrier_mismatch_opposite_team": 23,
+        "carrier_mismatch_event_player_seen_later_in_event": 4,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 1
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 58972,
+          "null_carrier": 47613
+        },
+        "ball_xy_finite": {
+          "frames": 45521,
+          "null_carrier": 34162
+        },
+        "players_present": {
+          "frames": 45521,
+          "null_carrier": 34162
+        },
+        "phase_covered_half_open": {
+          "frames": 32369,
+          "null_carrier": 21169
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 38008,
+          "null_carrier": 26660
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 32972,
+          "null_carrier": 21613
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15177,
+          "null_carrier": 6585
+        }
+      },
+      "tracking_group_values": {
+        "None": 26000,
+        "home team": 19714,
+        "away team": 13258
+      }
+    },
+    {
+      "match_id": "2011166",
+      "counts": {
+        "all_tracking_rows": 71851,
+        "outside_period_1_2": 12559,
+        "period_frames": 59292,
+        "null_carrier_period_frames": 51517,
+        "possession_start_rows": 757,
+        "start_null_carrier": 502,
+        "start_same_carrier": 229,
+        "start_known_carrier": 255,
+        "start_known_carrier_disagreement": 26,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 756,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 10,
+        "inclusive_any_phase": 757,
+        "inclusive_multiple_phases": 139,
+        "inclusive_no_team_match": 11,
+        "strict_interior_any_phase": 610,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 10,
+        "latest_start_half_open_phase_present": 756,
+        "latest_start_half_open_phase_disagreement": 10,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 20,
+        "carrier_mismatch_event_player_seen_later_in_event": 4,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59292,
+          "null_carrier": 51517
+        },
+        "ball_xy_finite": {
+          "frames": 39015,
+          "null_carrier": 31240
+        },
+        "players_present": {
+          "frames": 39015,
+          "null_carrier": 31240
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 31278,
+          "null_carrier": 23506
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 27658,
+          "null_carrier": 19883
+        },
+        "phase_covered_half_open": {
+          "frames": 27127,
+          "null_carrier": 19530
+        },
+        "possession_event_covered_half_open": {
+          "frames": 13160,
+          "null_carrier": 7376
+        }
+      },
+      "tracking_group_values": {
+        "None": 31634,
+        "away team": 15765,
+        "home team": 11893
+      }
+    },
+    {
+      "match_id": "2013725",
+      "counts": {
+        "all_tracking_rows": 70251,
+        "outside_period_1_2": 13459,
+        "period_frames": 56792,
+        "null_carrier_period_frames": 47303,
+        "possession_start_rows": 922,
+        "start_null_carrier": 531,
+        "start_same_carrier": 368,
+        "start_known_carrier": 391,
+        "start_known_carrier_disagreement": 23,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 921,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 13,
+        "inclusive_any_phase": 922,
+        "inclusive_multiple_phases": 179,
+        "inclusive_no_team_match": 13,
+        "strict_interior_any_phase": 738,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 13,
+        "latest_start_half_open_phase_present": 921,
+        "latest_start_half_open_phase_disagreement": 13,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 1,
+        "carrier_mismatch_opposite_team": 18,
+        "carrier_mismatch_event_player_seen_later_in_event": 3,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 56792,
+          "null_carrier": 47303
+        },
+        "ball_xy_finite": {
+          "frames": 44992,
+          "null_carrier": 35503
+        },
+        "players_present": {
+          "frames": 44992,
+          "null_carrier": 35503
+        },
+        "phase_covered_half_open": {
+          "frames": 31140,
+          "null_carrier": 22010
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 35561,
+          "null_carrier": 26085
+        },
+        "possession_event_covered_half_open": {
+          "frames": 13640,
+          "null_carrier": 6930
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 31775,
+          "null_carrier": 22286
+        }
+      },
+      "tracking_group_values": {
+        "None": 25017,
+        "home team": 15856,
+        "away team": 15919
+      }
+    },
+    {
+      "match_id": "2015213",
+      "counts": {
+        "all_tracking_rows": 72101,
+        "outside_period_1_2": 12199,
+        "period_frames": 59902,
+        "null_carrier_period_frames": 51080,
+        "possession_start_rows": 883,
+        "start_null_carrier": 503,
+        "start_same_carrier": 358,
+        "start_known_carrier": 380,
+        "start_known_carrier_disagreement": 22,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 883,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 9,
+        "inclusive_any_phase": 883,
+        "inclusive_multiple_phases": 139,
+        "inclusive_no_team_match": 9,
+        "strict_interior_any_phase": 735,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 9,
+        "latest_start_half_open_phase_present": 883,
+        "latest_start_half_open_phase_disagreement": 9,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 17,
+        "carrier_mismatch_event_player_seen_later_in_event": 4,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 1,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 59902,
+          "null_carrier": 51080
+        },
+        "ball_xy_finite": {
+          "frames": 48542,
+          "null_carrier": 39720
+        },
+        "players_present": {
+          "frames": 48542,
+          "null_carrier": 39720
+        },
+        "phase_covered_half_open": {
+          "frames": 30396,
+          "null_carrier": 21752
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 36626,
+          "null_carrier": 27812
+        },
+        "possession_event_covered_half_open": {
+          "frames": 13600,
+          "null_carrier": 7067
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 31349,
+          "null_carrier": 22527
+        }
+      },
+      "tracking_group_values": {
+        "None": 28553,
+        "away team": 17052,
+        "home team": 14297
+      }
+    },
+    {
+      "match_id": "2016236",
+      "counts": {
+        "all_tracking_rows": 71101,
+        "outside_period_1_2": 11059,
+        "period_frames": 60042,
+        "null_carrier_period_frames": 50533,
+        "possession_start_rows": 959,
+        "start_null_carrier": 592,
+        "start_same_carrier": 348,
+        "start_known_carrier": 367,
+        "start_known_carrier_disagreement": 19,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 959,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 25,
+        "inclusive_any_phase": 959,
+        "inclusive_multiple_phases": 178,
+        "inclusive_no_team_match": 25,
+        "strict_interior_any_phase": 772,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 25,
+        "latest_start_half_open_phase_present": 959,
+        "latest_start_half_open_phase_disagreement": 25,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "carrier_mismatch_opposite_team": 14,
+        "carrier_mismatch_event_player_seen_later_in_event": 5,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 2,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 1
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 60042,
+          "null_carrier": 50533
+        },
+        "ball_xy_finite": {
+          "frames": 43883,
+          "null_carrier": 34374
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 35533,
+          "null_carrier": 26024
+        },
+        "players_present": {
+          "frames": 43883,
+          "null_carrier": 34374
+        },
+        "phase_covered_half_open": {
+          "frames": 32615,
+          "null_carrier": 23259
+        },
+        "possession_event_covered_half_open": {
+          "frames": 15309,
+          "null_carrier": 8065
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 33134,
+          "null_carrier": 23625
+        }
+      },
+      "tracking_group_values": {
+        "None": 26908,
+        "away team": 17811,
+        "home team": 15323
+      }
+    },
+    {
+      "match_id": "2017461",
+      "counts": {
+        "all_tracking_rows": 71451,
+        "outside_period_1_2": 12999,
+        "period_frames": 58452,
+        "null_carrier_period_frames": 50896,
+        "possession_start_rows": 839,
+        "start_null_carrier": 546,
+        "start_same_carrier": 266,
+        "start_known_carrier": 293,
+        "start_known_carrier_disagreement": 27,
+        "event_player_metadata_team_disagreement": 0,
+        "half_open_any_phase": 839,
+        "half_open_multiple_phases": 0,
+        "half_open_no_team_match": 33,
+        "inclusive_any_phase": 839,
+        "inclusive_multiple_phases": 171,
+        "inclusive_no_team_match": 33,
+        "strict_interior_any_phase": 664,
+        "strict_interior_multiple_phases": 0,
+        "strict_interior_no_team_match": 33,
+        "latest_start_half_open_phase_present": 839,
+        "latest_start_half_open_phase_disagreement": 33,
+        "phase_disagreement_and_carrier_disagreement": 0,
+        "phase_conflicts_at_any_boundary": 0,
+        "phase_conflicts_with_inclusive_team_match": 0,
+        "phase_conflict_phase_index_team_agrees": 2,
+        "carrier_mismatch_opposite_team": 22,
+        "carrier_mismatch_event_player_seen_later_in_event": 1,
+        "mismatch_agrees_at_offset_-10": 0,
+        "mismatch_agrees_at_offset_-5": 0,
+        "mismatch_agrees_at_offset_-2": 0,
+        "mismatch_agrees_at_offset_-1": 0,
+        "mismatch_agrees_at_offset_0": 0,
+        "mismatch_agrees_at_offset_1": 0,
+        "mismatch_agrees_at_offset_2": 0,
+        "mismatch_agrees_at_offset_5": 0,
+        "mismatch_agrees_at_offset_10": 0
+      },
+      "carrier_missingness_subsets": {
+        "period_1_2": {
+          "frames": 58452,
+          "null_carrier": 50896
+        },
+        "ball_xy_finite": {
+          "frames": 40404,
+          "null_carrier": 32848
+        },
+        "ball_detected_and_xy_finite": {
+          "frames": 31875,
+          "null_carrier": 24320
+        },
+        "players_present": {
+          "frames": 40404,
+          "null_carrier": 32848
+        },
+        "phase_covered_half_open": {
+          "frames": 28245,
+          "null_carrier": 20886
+        },
+        "possession_event_covered_half_open": {
+          "frames": 11343,
+          "null_carrier": 6108
+        },
+        "tracking_team_group_nonnull": {
+          "frames": 28888,
+          "null_carrier": 21332
+        }
+      },
+      "tracking_group_values": {
+        "None": 29564,
+        "home team": 17796,
+        "away team": 11092
+      }
+    }
+  ],
+  "input_sha256": {
+    "data/matches/1874553/1874553_tracking_extrapolated.jsonl": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265",
+    "data/matches/1874553/1874553_match.json": "e6974e402779d8be44e75bf88ef2a3acfd4d025b87b3fc57f518fa826a645ad8",
+    "data/matches/1874553/1874553_dynamic_events.csv": "aee56ed57eade4c93a5b5972a022ee3406f46007c968c48db915276093196cf6",
+    "data/matches/1874553/1874553_phases_of_play.csv": "04a6b29e9dcf383fe6f1d14d83b0e0625a7eeb3b72aaedb9ed17cfe9f1851977",
+    "data/matches/1886347/1886347_tracking_extrapolated.jsonl": "3577e2803da95390f8b2f85d47829eb55fbbfee6211c94adc65db0dc78e46b41",
+    "data/matches/1886347/1886347_match.json": "30c608e78663e9f490b3545479a3ce67b171f418c5133d5609cb249a2466abb2",
+    "data/matches/1886347/1886347_dynamic_events.csv": "8e9b3d6edbc308beceede11ad0d4c7b88ee4648244f3c9492953285b68754dcf",
+    "data/matches/1886347/1886347_phases_of_play.csv": "0ceac56df7cf32b26a543f7fcc08c52679de928fc570dcfd9fc3d6a6a6d38252",
+    "data/matches/1899585/1899585_tracking_extrapolated.jsonl": "90b6289ec2181192d1793ec6240fbbe8225ff0219c7956710c6278c31a661100",
+    "data/matches/1899585/1899585_match.json": "41de8cb74a0512fcf0cbaaa5c615ae3e7dcaaf6745b9c78a050b59b906b1cb06",
+    "data/matches/1899585/1899585_dynamic_events.csv": "2688f047fa704bb353282b0e21220761466d2a7b2b13a82e2beae14581d5283e",
+    "data/matches/1899585/1899585_phases_of_play.csv": "56480b63b50f807ae3193263d1545f6601aec3d23e31ded91bab19154a133b7a",
+    "data/matches/1925299/1925299_tracking_extrapolated.jsonl": "48528be40ad82fa3e2b232e1af8d311705f7d6d119925ef199d2b59ea36fd3c9",
+    "data/matches/1925299/1925299_match.json": "f4345b32c0fdd7c9990df70050b3a74f57b1992cf762e20f2a4d309bd2fba7d2",
+    "data/matches/1925299/1925299_dynamic_events.csv": "ac0cfd60f5ce40ffa2135b2177d105053603cab109784b53541f4cfaa2007b3c",
+    "data/matches/1925299/1925299_phases_of_play.csv": "8d738c34f931e906b342838639c1abd9c9d35b3ca780931a7caae238fddb9058",
+    "data/matches/1927964/1927964_tracking_extrapolated.jsonl": "858c7a756ca3d33017f864775af5999d2c0f364e58ab60ae040c8b9ebab17827",
+    "data/matches/1927964/1927964_match.json": "f967f911c20f5c5f8c89bbe2020a30c92731173616d5a1e4bafeb65435278b76",
+    "data/matches/1927964/1927964_dynamic_events.csv": "3c207e6e3c3d27d59d686d4002f1285960806f01b01a7a48e886009cb3845c32",
+    "data/matches/1927964/1927964_phases_of_play.csv": "bca863e0d94d52af23f63a6e94c538ad4ce1b0ee8bf5ea5215a0c8addb4a5589",
+    "data/matches/1953632/1953632_tracking_extrapolated.jsonl": "1c2014f97c3eff1ce2475203512c9d126930d7599c036105c9ac442d1de1667e",
+    "data/matches/1953632/1953632_match.json": "366c8dd6b504d4f4ace5685040648b0f30081043a44f01663b8b7e077e6bfde8",
+    "data/matches/1953632/1953632_dynamic_events.csv": "e293cf5053318d060c9760c48a1fe21ba3d9bea5ffb0cf9ef991eeb8baee19bd",
+    "data/matches/1953632/1953632_phases_of_play.csv": "1bc230e3a893b95c1a16e71a447a50c4d4b74c035bf63de33f1e36d5a72d426e",
+    "data/matches/1959846/1959846_tracking_extrapolated.jsonl": "5ba2d87f6fd1ba3138301b369bd9266be69416a2d799a3fba5b5ec8a52e1284b",
+    "data/matches/1959846/1959846_match.json": "4bbe2058af53edd42d5e3acd7fb28ecb8c79e4afb16cb9b77a6fe9b58f6e516b",
+    "data/matches/1959846/1959846_dynamic_events.csv": "7df7226a7047c819647a7d78407a2cdc79e236eac1e342adac29fe81474d18d9",
+    "data/matches/1959846/1959846_phases_of_play.csv": "78c6b7cf79dc5afb52111683e3085742a4f76801e144cdd14f1dfe627a048821",
+    "data/matches/1986691/1986691_tracking_extrapolated.jsonl": "630e946950fe459f5e48872b01a36e6dfc319cf9027e7b98156150bb6e2c30f6",
+    "data/matches/1986691/1986691_match.json": "754f6a6fd0d996236cf553ef5c3c24513274b0db024cb6833a7419b08d55dd68",
+    "data/matches/1986691/1986691_dynamic_events.csv": "fd0c8e662cd32bbb9691f48fc662634c6f493fa9384654d402fee0367bd7e3af",
+    "data/matches/1986691/1986691_phases_of_play.csv": "c0d93741481b09f5f223cbd6f230daeeb7811fb7795085933e8757be9039910a",
+    "data/matches/1996435/1996435_tracking_extrapolated.jsonl": "f42764d8bde290e8f738fa21141cadbed75408314b0b337bbf1d5a3444540a02",
+    "data/matches/1996435/1996435_match.json": "f54179645d3c3f308a7094086283277f2a7c99da5f3919302e622cbd82f9d065",
+    "data/matches/1996435/1996435_dynamic_events.csv": "9be1a40013d163aaa2e740f5e6752039ace35813dabb934453f51231df77d639",
+    "data/matches/1996435/1996435_phases_of_play.csv": "db72f640fa7dc3c60bd81078bd59ebb84b3ec8871cf0dfa6255cc16aa9d4ce39",
+    "data/matches/1996436/1996436_tracking_extrapolated.jsonl": "fab9d331e06f3042c83ac17798901b49bb259c99a8f3b319cd0146263cde65e7",
+    "data/matches/1996436/1996436_match.json": "4e8999668a79fccd43f01e5538d7595b4614ec6061d648b831a96951e495c78a",
+    "data/matches/1996436/1996436_dynamic_events.csv": "37188bef638eb5d358d7548f1dfbafd75b48a58cd6832c93c277b64eeaa9c325",
+    "data/matches/1996436/1996436_phases_of_play.csv": "c22f4af34c45c207f9a166878d8b9b9e6dac1faf958671848ee91bf5ff36eb13",
+    "data/matches/2006229/2006229_tracking_extrapolated.jsonl": "3ee193ba01f1fe2cbce087eca8a881c21b8b0ea3485ae6c3d7e32e8b2f51e738",
+    "data/matches/2006229/2006229_match.json": "87386df74b45eb7ccac80742c603763146cb2b61f47561122355fe246d8795eb",
+    "data/matches/2006229/2006229_dynamic_events.csv": "c728023de9bdbcf93c3a4e9524d64ef61fa120de8765193cafff65111f9b3fb6",
+    "data/matches/2006229/2006229_phases_of_play.csv": "98c44c48e6377f9f12a03531101ef5d9ddb19186019abba7a6a36ede1209d478",
+    "data/matches/2006363/2006363_tracking_extrapolated.jsonl": "61dfdbd83f8e654127b249b8503f062338c14ec0c9e65404bcf70fb7c1346bd4",
+    "data/matches/2006363/2006363_match.json": "26d4068baf7454d1e066b6e70715da6c7ac016b14963a3bfa3ed99ed7c3aba79",
+    "data/matches/2006363/2006363_dynamic_events.csv": "cc2f79def69831fa59f9a0d4ba29b942a178e47d72a63fc2760babc20e1267ab",
+    "data/matches/2006363/2006363_phases_of_play.csv": "70478fa3f768a9f452dc1f9ffbd7715c5617f9d3a08ce35fb0fe45e7a2f94606",
+    "data/matches/2007448/2007448_tracking_extrapolated.jsonl": "12d00d6e4257218812df6e4c4263c49387ba0313a83ff8d826c4416828f9c798",
+    "data/matches/2007448/2007448_match.json": "434b31c032656be4a89e7042eadd442d4dfb468e4bfa87ce188102f314262873",
+    "data/matches/2007448/2007448_dynamic_events.csv": "32eb4781eddc3f96809ef240f9eb9ec9d55f970a2a58370492c1e4e7108b6ce8",
+    "data/matches/2007448/2007448_phases_of_play.csv": "d30ef60c431d1a2859367ccfb1dc82fe91d32253f83d1875d2d010a90b9817b0",
+    "data/matches/2007721/2007721_tracking_extrapolated.jsonl": "fea913b8d4cbde8d85c6bdf5f1a4b3fd203b78227e976a171c8ab0946705d378",
+    "data/matches/2007721/2007721_match.json": "0ed112bc955eb341bc25005f9a7bb3fdf040223c8e1765646225c47e974b6139",
+    "data/matches/2007721/2007721_dynamic_events.csv": "f1729e7165ee865abb6b0fcf8c4bc8d5540479c806e7729585308196c108a214",
+    "data/matches/2007721/2007721_phases_of_play.csv": "eca2837891514624ac8a1c4c56b131958bd9e5a0c0308e0c4078103cec07d9cb",
+    "data/matches/2010085/2010085_tracking_extrapolated.jsonl": "04562d9754b2977c80430535e9b5733426bc4ce910db56fe7a3760876211ac5a",
+    "data/matches/2010085/2010085_match.json": "3222413d358251e1ac1cdde1f5ee2fd126b0d9cc3470c2aa1bb07177a09ef24d",
+    "data/matches/2010085/2010085_dynamic_events.csv": "fae9b6aa79b3adde35b335053b41e6d24ba3e3dbac454d61d7d3dfd56cf6ca01",
+    "data/matches/2010085/2010085_phases_of_play.csv": "fa1bf4d76cdde617ad3422b60c607ea70ddeeb8360c49d477e496ae85f8628fa",
+    "data/matches/2011166/2011166_tracking_extrapolated.jsonl": "8ec2937050930d87e4f52b2d65515f70ef8edd0ae2814bf40155c4448133390e",
+    "data/matches/2011166/2011166_match.json": "6b381b8bd338859c394c1992da137436e2e09cd609a81ac94d5f5f941d35d1bc",
+    "data/matches/2011166/2011166_dynamic_events.csv": "a1d2cd6d8577301e4ce7fcdf630a2eb83270131d5e6951fc0973e73181e8eea6",
+    "data/matches/2011166/2011166_phases_of_play.csv": "117681c36e43be2009d0f764624963957c3dbc7f6fd46b3c586d643dd064f0b1",
+    "data/matches/2013725/2013725_tracking_extrapolated.jsonl": "13eb83329814ed5f5d73da8f8ab5c5979d6c8a7858e89e28a7fa8072f91fb250",
+    "data/matches/2013725/2013725_match.json": "c8b9372fbd2e79ddcbb859b51b5086111ed7f3cd84ca0b457091c7d0e5209df3",
+    "data/matches/2013725/2013725_dynamic_events.csv": "53779f74cf8b0107cd68445615631792093be0d2e0940d9e00f5e9f2a1ce4b8b",
+    "data/matches/2013725/2013725_phases_of_play.csv": "1c420d68fd0af7b07ad6bdf9bc13c56e705a627e486a6cf120d043aa8b1978e7",
+    "data/matches/2015213/2015213_tracking_extrapolated.jsonl": "413990d0024d84856ce1f2a16866b8887472c0cea22c61caef0d1f46505a609e",
+    "data/matches/2015213/2015213_match.json": "300342194bf3dcd9fe356ed30df26fd0ee6e8caeb8ce5d8cfd27cf90cd995dff",
+    "data/matches/2015213/2015213_dynamic_events.csv": "efb4caa7a962c3ced05c3e7e118161d078afacef53e19bec0973dd14b712e980",
+    "data/matches/2015213/2015213_phases_of_play.csv": "2a3bfcf492a3709f869dee437c3776c7157bd72eb7f3971b6c7554be6509209a",
+    "data/matches/2016236/2016236_tracking_extrapolated.jsonl": "d78555f9dfd7d1ce9de38066d3c98e6d54417c6d45d73b1f1ce7e26f07263d8f",
+    "data/matches/2016236/2016236_match.json": "93ccf67cead82def1acda87d3cf550fd42f96cb0e1adbff9eeb8824077980495",
+    "data/matches/2016236/2016236_dynamic_events.csv": "7db8217ee94e3e674dc7c76c7616bcff69f5b871245cae7f4435e1f0b442ef22",
+    "data/matches/2016236/2016236_phases_of_play.csv": "d8212de94437af4713105d239b4bc2ab3dbe4c3ea28251678f2c7bb7ae78735a",
+    "data/matches/2017461/2017461_tracking_extrapolated.jsonl": "59cfa5588efee041da439f44df5b5b92f2b7305571dc831164e3d05f7415787a",
+    "data/matches/2017461/2017461_match.json": "db27759bf734dc8e3d9e56f047965cc7c74833bc3d0345ee3821ab97681ce4b9",
+    "data/matches/2017461/2017461_dynamic_events.csv": "b36d955d9810480d78268a46a65ecaa5115ecdbb9855aa00e8d1c175574c61f3",
+    "data/matches/2017461/2017461_phases_of_play.csv": "0b52f9d58e03a9244f8e837d8504218897663edea78358036fbf228d4b39b9ec"
+  },
+  "limitations": [
+    "Phase coverage is a provider-label proxy for in-play, not independently verified ball state.",
+    "Adjacent-frame agreement diagnoses boundary sensitivity; it cannot establish correct tactical ownership.",
+    "Event intervals and linked phase fields may contain retrospective information. No online reconstruction validated."
+  ]
+}
