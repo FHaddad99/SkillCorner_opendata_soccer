@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-26T01:32:21.987606+00:00",
+  "purpose": "Past-only temporal tracking quality pilot; not calibrated player or ball speeds",
+  "match_id": "1874553",
+  "expected_decisions": 959,
+  "unique_requested_keys": 2853,
+  "unique_found_keys": 2853,
+  "unavailable_requested_keys": 0,
+  "tracking_records_skipped_due_to_invalid_key": 19,
+  "counts": {
+    "defender_5_finite": 10395,
+    "defender_5_detected_endpoints": 6772,
+    "defender_halfsec_rate_gt_15mps": 0,
+    "defender_10_finite": 10318,
+    "defender_10_detected_endpoints": 6500,
+    "ball_5_finite": 945,
+    "ball_10_finite": 938,
+    "decisions": 959,
+    "defender_records": 10516,
+    "past_5_frame_present": 959,
+    "carrier_5_past_rate_finite": 945,
+    "past_10_frame_present": 959,
+    "carrier_10_past_rate_finite": 938
+  },
+  "defender_halfsec_displacement_all_finite_mps": {
+    "n": 10395,
+    "median": 2.2044500447957565,
+    "p95": 5.040714235105978,
+    "max": 8.773984271697778
+  },
+  "defender_halfsec_displacement_both_endpoints_detected_mps": {
+    "n": 6772,
+    "median": 2.5025985776283077,
+    "p95": 5.327363325323326,
+    "max": 8.773984271697778
+  },
+  "ball_halfsec_historical_displacement_mps": {
+    "n": 945,
+    "median": 7.2386739117050976,
+    "p95": 13.244349738662146,
+    "max": 20.631878247023465
+  },
+  "limitations": [
+    "Exact historical same-period frame keys only; no future frames",
+    "Player displacement over 0.5s/1s is NOT instantaneous speed or a sprint capability estimate",
+    "Detected endpoints do not certify every intermediate observation",
+    "Tracking extrapolation can distort displacement and velocity estimates",
+    "Historical ball displacement is NOT a prospective pass-travel velocity estimate",
+    "Single-match pilot; no inference, pressing classification, or interception outcomes",
+    "15m/s player displacement check is a descriptive anomaly flag, not an eligibility cutoff"
+  ]
+}

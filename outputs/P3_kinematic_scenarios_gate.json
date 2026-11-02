@@ -1,0 +1,574 @@
+{
+  "created_utc": "2026-10-26T01:59:43.553321+00:00",
+  "purpose": "Hypothetical closest-separation kinematics under explicit ball speed and constant defender velocity assumptions",
+  "n_matches": 20,
+  "ball_speed_scenarios_mps": [
+    12.0,
+    20.0,
+    28.0
+  ],
+  "totals": {
+    "speed_12_motion_available_pairs": 185560,
+    "speed_12_detected_motion_available_pairs": 180030,
+    "speed_20_motion_available_pairs": 185560,
+    "speed_20_detected_motion_available_pairs": 180030,
+    "speed_28_motion_available_pairs": 185560,
+    "speed_28_detected_motion_available_pairs": 180030,
+    "candidate_pairs": 187570,
+    "eligible_decisions": 18757
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "counts": {
+        "speed_12_motion_available_pairs": 9450,
+        "speed_12_detected_motion_available_pairs": 9270,
+        "speed_20_motion_available_pairs": 9450,
+        "speed_20_detected_motion_available_pairs": 9270,
+        "speed_28_motion_available_pairs": 9450,
+        "speed_28_detected_motion_available_pairs": 9270,
+        "candidate_pairs": 9560,
+        "eligible_decisions": 956
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9450,
+          "median_m": 1.5894116513877798
+        },
+        "20.0": {
+          "n": 9450,
+          "median_m": 1.6159016316159027
+        },
+        "28.0": {
+          "n": 9450,
+          "median_m": 1.6469920970995444
+        }
+      }
+    },
+    {
+      "match_id": "1886347",
+      "counts": {
+        "speed_12_motion_available_pairs": 9910,
+        "speed_12_detected_motion_available_pairs": 9590,
+        "speed_20_motion_available_pairs": 9910,
+        "speed_20_detected_motion_available_pairs": 9590,
+        "speed_28_motion_available_pairs": 9910,
+        "speed_28_detected_motion_available_pairs": 9590,
+        "candidate_pairs": 9990,
+        "eligible_decisions": 999
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9910,
+          "median_m": 1.5010730835304509
+        },
+        "20.0": {
+          "n": 9910,
+          "median_m": 1.5829220859657565
+        },
+        "28.0": {
+          "n": 9910,
+          "median_m": 1.6135489489998476
+        }
+      }
+    },
+    {
+      "match_id": "1899585",
+      "counts": {
+        "speed_12_motion_available_pairs": 9160,
+        "speed_12_detected_motion_available_pairs": 8800,
+        "speed_20_motion_available_pairs": 9160,
+        "speed_20_detected_motion_available_pairs": 8800,
+        "speed_28_motion_available_pairs": 9160,
+        "speed_28_detected_motion_available_pairs": 8800,
+        "candidate_pairs": 9290,
+        "eligible_decisions": 929
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9160,
+          "median_m": 1.44003472180361
+        },
+        "20.0": {
+          "n": 9160,
+          "median_m": 1.484104276649679
+        },
+        "28.0": {
+          "n": 9160,
+          "median_m": 1.5071299279863506
+        }
+      }
+    },
+    {
+      "match_id": "1925299",
+      "counts": {
+        "speed_12_motion_available_pairs": 10590,
+        "speed_12_detected_motion_available_pairs": 10320,
+        "speed_20_motion_available_pairs": 10590,
+        "speed_20_detected_motion_available_pairs": 10320,
+        "speed_28_motion_available_pairs": 10590,
+        "speed_28_detected_motion_available_pairs": 10320,
+        "candidate_pairs": 10620,
+        "eligible_decisions": 1062
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 10590,
+          "median_m": 1.6104123908529915
+        },
+        "20.0": {
+          "n": 10590,
+          "median_m": 1.6682700858448074
+        },
+        "28.0": {
+          "n": 10590,
+          "median_m": 1.7090712075645929
+        }
+      }
+    },
+    {
+      "match_id": "1927964",
+      "counts": {
+        "speed_12_motion_available_pairs": 11230,
+        "speed_12_detected_motion_available_pairs": 10790,
+        "speed_20_motion_available_pairs": 11230,
+        "speed_20_detected_motion_available_pairs": 10790,
+        "speed_28_motion_available_pairs": 11230,
+        "speed_28_detected_motion_available_pairs": 10790,
+        "candidate_pairs": 11390,
+        "eligible_decisions": 1139
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 11230,
+          "median_m": 1.8466197711177337
+        },
+        "20.0": {
+          "n": 11230,
+          "median_m": 1.9216347301476429
+        },
+        "28.0": {
+          "n": 11230,
+          "median_m": 1.9825010297839993
+        }
+      }
+    },
+    {
+      "match_id": "1953632",
+      "counts": {
+        "speed_12_motion_available_pairs": 9600,
+        "speed_12_detected_motion_available_pairs": 9270,
+        "speed_20_motion_available_pairs": 9600,
+        "speed_20_detected_motion_available_pairs": 9270,
+        "speed_28_motion_available_pairs": 9600,
+        "speed_28_detected_motion_available_pairs": 9270,
+        "candidate_pairs": 9700,
+        "eligible_decisions": 970
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9600,
+          "median_m": 1.7811277553369336
+        },
+        "20.0": {
+          "n": 9600,
+          "median_m": 1.8875061963670057
+        },
+        "28.0": {
+          "n": 9600,
+          "median_m": 1.9314964966937236
+        }
+      }
+    },
+    {
+      "match_id": "1959846",
+      "counts": {
+        "speed_12_motion_available_pairs": 9320,
+        "speed_12_detected_motion_available_pairs": 9020,
+        "speed_20_motion_available_pairs": 9320,
+        "speed_20_detected_motion_available_pairs": 9020,
+        "speed_28_motion_available_pairs": 9320,
+        "speed_28_detected_motion_available_pairs": 9020,
+        "candidate_pairs": 9450,
+        "eligible_decisions": 945
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9320,
+          "median_m": 1.5202621400840266
+        },
+        "20.0": {
+          "n": 9320,
+          "median_m": 1.5836893548420776
+        },
+        "28.0": {
+          "n": 9320,
+          "median_m": 1.6130419999250318
+        }
+      }
+    },
+    {
+      "match_id": "1986691",
+      "counts": {
+        "speed_12_motion_available_pairs": 9000,
+        "speed_12_detected_motion_available_pairs": 8710,
+        "speed_20_motion_available_pairs": 9000,
+        "speed_20_detected_motion_available_pairs": 8710,
+        "speed_28_motion_available_pairs": 9000,
+        "speed_28_detected_motion_available_pairs": 8710,
+        "candidate_pairs": 9150,
+        "eligible_decisions": 915
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9000,
+          "median_m": 1.573533123532685
+        },
+        "20.0": {
+          "n": 9000,
+          "median_m": 1.624134731698427
+        },
+        "28.0": {
+          "n": 9000,
+          "median_m": 1.6261445435794606
+        }
+      }
+    },
+    {
+      "match_id": "1996435",
+      "counts": {
+        "speed_12_motion_available_pairs": 9890,
+        "speed_12_detected_motion_available_pairs": 9640,
+        "speed_20_motion_available_pairs": 9890,
+        "speed_20_detected_motion_available_pairs": 9640,
+        "speed_28_motion_available_pairs": 9890,
+        "speed_28_detected_motion_available_pairs": 9640,
+        "candidate_pairs": 9970,
+        "eligible_decisions": 997
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9890,
+          "median_m": 1.5162135206274976
+        },
+        "20.0": {
+          "n": 9890,
+          "median_m": 1.5697598544362248
+        },
+        "28.0": {
+          "n": 9890,
+          "median_m": 1.6153644672992553
+        }
+      }
+    },
+    {
+      "match_id": "1996436",
+      "counts": {
+        "speed_12_motion_available_pairs": 7800,
+        "speed_12_detected_motion_available_pairs": 7630,
+        "speed_20_motion_available_pairs": 7800,
+        "speed_20_detected_motion_available_pairs": 7630,
+        "speed_28_motion_available_pairs": 7800,
+        "speed_28_detected_motion_available_pairs": 7630,
+        "candidate_pairs": 7850,
+        "eligible_decisions": 785
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 7800,
+          "median_m": 1.495029980830585
+        },
+        "20.0": {
+          "n": 7800,
+          "median_m": 1.556148032658895
+        },
+        "28.0": {
+          "n": 7800,
+          "median_m": 1.5849045467822793
+        }
+      }
+    },
+    {
+      "match_id": "2006229",
+      "counts": {
+        "speed_12_motion_available_pairs": 9700,
+        "speed_12_detected_motion_available_pairs": 9480,
+        "speed_20_motion_available_pairs": 9700,
+        "speed_20_detected_motion_available_pairs": 9480,
+        "speed_28_motion_available_pairs": 9700,
+        "speed_28_detected_motion_available_pairs": 9480,
+        "candidate_pairs": 9770,
+        "eligible_decisions": 977
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9700,
+          "median_m": 1.6589454481688055
+        },
+        "20.0": {
+          "n": 9700,
+          "median_m": 1.7267940728254043
+        },
+        "28.0": {
+          "n": 9700,
+          "median_m": 1.7402195642591844
+        }
+      }
+    },
+    {
+      "match_id": "2006363",
+      "counts": {
+        "speed_12_motion_available_pairs": 9610,
+        "speed_12_detected_motion_available_pairs": 9320,
+        "speed_20_motion_available_pairs": 9610,
+        "speed_20_detected_motion_available_pairs": 9320,
+        "speed_28_motion_available_pairs": 9610,
+        "speed_28_detected_motion_available_pairs": 9320,
+        "candidate_pairs": 9760,
+        "eligible_decisions": 976
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9610,
+          "median_m": 1.5564394563728605
+        },
+        "20.0": {
+          "n": 9610,
+          "median_m": 1.6018051863698572
+        },
+        "28.0": {
+          "n": 9610,
+          "median_m": 1.6381135580523443
+        }
+      }
+    },
+    {
+      "match_id": "2007448",
+      "counts": {
+        "speed_12_motion_available_pairs": 8540,
+        "speed_12_detected_motion_available_pairs": 8310,
+        "speed_20_motion_available_pairs": 8540,
+        "speed_20_detected_motion_available_pairs": 8310,
+        "speed_28_motion_available_pairs": 8540,
+        "speed_28_detected_motion_available_pairs": 8310,
+        "candidate_pairs": 8620,
+        "eligible_decisions": 862
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 8540,
+          "median_m": 1.5968530726790648
+        },
+        "20.0": {
+          "n": 8540,
+          "median_m": 1.6501985824415843
+        },
+        "28.0": {
+          "n": 8540,
+          "median_m": 1.6868113815972423
+        }
+      }
+    },
+    {
+      "match_id": "2007721",
+      "counts": {
+        "speed_12_motion_available_pairs": 9530,
+        "speed_12_detected_motion_available_pairs": 9260,
+        "speed_20_motion_available_pairs": 9530,
+        "speed_20_detected_motion_available_pairs": 9260,
+        "speed_28_motion_available_pairs": 9530,
+        "speed_28_detected_motion_available_pairs": 9260,
+        "candidate_pairs": 9590,
+        "eligible_decisions": 959
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9530,
+          "median_m": 1.650223345004737
+        },
+        "20.0": {
+          "n": 9530,
+          "median_m": 1.7400130811325885
+        },
+        "28.0": {
+          "n": 9530,
+          "median_m": 1.7567053747887413
+        }
+      }
+    },
+    {
+      "match_id": "2010085",
+      "counts": {
+        "speed_12_motion_available_pairs": 9270,
+        "speed_12_detected_motion_available_pairs": 9120,
+        "speed_20_motion_available_pairs": 9270,
+        "speed_20_detected_motion_available_pairs": 9120,
+        "speed_28_motion_available_pairs": 9270,
+        "speed_28_detected_motion_available_pairs": 9120,
+        "candidate_pairs": 9350,
+        "eligible_decisions": 935
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9270,
+          "median_m": 1.637938442882839
+        },
+        "20.0": {
+          "n": 9270,
+          "median_m": 1.7178285716561228
+        },
+        "28.0": {
+          "n": 9270,
+          "median_m": 1.757345746116669
+        }
+      }
+    },
+    {
+      "match_id": "2011166",
+      "counts": {
+        "speed_12_motion_available_pairs": 7460,
+        "speed_12_detected_motion_available_pairs": 7270,
+        "speed_20_motion_available_pairs": 7460,
+        "speed_20_detected_motion_available_pairs": 7270,
+        "speed_28_motion_available_pairs": 7460,
+        "speed_28_detected_motion_available_pairs": 7270,
+        "candidate_pairs": 7550,
+        "eligible_decisions": 755
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 7460,
+          "median_m": 1.3396022096723053
+        },
+        "20.0": {
+          "n": 7460,
+          "median_m": 1.3758524200973912
+        },
+        "28.0": {
+          "n": 7460,
+          "median_m": 1.3965343381585777
+        }
+      }
+    },
+    {
+      "match_id": "2013725",
+      "counts": {
+        "speed_12_motion_available_pairs": 8960,
+        "speed_12_detected_motion_available_pairs": 8740,
+        "speed_20_motion_available_pairs": 8960,
+        "speed_20_detected_motion_available_pairs": 8740,
+        "speed_28_motion_available_pairs": 8960,
+        "speed_28_detected_motion_available_pairs": 8740,
+        "candidate_pairs": 9170,
+        "eligible_decisions": 917
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 8960,
+          "median_m": 1.4731800829392574
+        },
+        "20.0": {
+          "n": 8960,
+          "median_m": 1.5548388975964862
+        },
+        "28.0": {
+          "n": 8960,
+          "median_m": 1.6080803097029395
+        }
+      }
+    },
+    {
+      "match_id": "2015213",
+      "counts": {
+        "speed_12_motion_available_pairs": 8750,
+        "speed_12_detected_motion_available_pairs": 8440,
+        "speed_20_motion_available_pairs": 8750,
+        "speed_20_detected_motion_available_pairs": 8440,
+        "speed_28_motion_available_pairs": 8750,
+        "speed_28_detected_motion_available_pairs": 8440,
+        "candidate_pairs": 8810,
+        "eligible_decisions": 881
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 8750,
+          "median_m": 1.5071750816154625
+        },
+        "20.0": {
+          "n": 8750,
+          "median_m": 1.5718580607909263
+        },
+        "28.0": {
+          "n": 8750,
+          "median_m": 1.6145801683498822
+        }
+      }
+    },
+    {
+      "match_id": "2016236",
+      "counts": {
+        "speed_12_motion_available_pairs": 9460,
+        "speed_12_detected_motion_available_pairs": 9060,
+        "speed_20_motion_available_pairs": 9460,
+        "speed_20_detected_motion_available_pairs": 9060,
+        "speed_28_motion_available_pairs": 9460,
+        "speed_28_detected_motion_available_pairs": 9060,
+        "candidate_pairs": 9590,
+        "eligible_decisions": 959
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 9460,
+          "median_m": 1.5092609839903406
+        },
+        "20.0": {
+          "n": 9460,
+          "median_m": 1.570889601044528
+        },
+        "28.0": {
+          "n": 9460,
+          "median_m": 1.6273139146446645
+        }
+      }
+    },
+    {
+      "match_id": "2017461",
+      "counts": {
+        "speed_12_motion_available_pairs": 8330,
+        "speed_12_detected_motion_available_pairs": 7990,
+        "speed_20_motion_available_pairs": 8330,
+        "speed_20_detected_motion_available_pairs": 7990,
+        "speed_28_motion_available_pairs": 8330,
+        "speed_28_detected_motion_available_pairs": 7990,
+        "candidate_pairs": 8390,
+        "eligible_decisions": 839
+      },
+      "scenario_descriptives": {
+        "12.0": {
+          "n": 8330,
+          "median_m": 1.3226323245414502
+        },
+        "20.0": {
+          "n": 8330,
+          "median_m": 1.3607718398026951
+        },
+        "28.0": {
+          "n": 8330,
+          "median_m": 1.3862377031036974
+        }
+      }
+    }
+  ],
+  "method": "Analytic minimum Euclidean distance during assumed straight-ball-flight horizon",
+  "interpretation_constraints": [
+    "Assumed ball speeds are sensitivity inputs, not calibrated pass speeds",
+    "Retrospective defender velocity is extrapolated at constant value; no acceleration, anticipation or turning",
+    "Stationary-defender baseline is distinct from missing-motion cases",
+    "Fixed target is teammate location at decision time, not receiver position at ball arrival",
+    "Small projected closest separation does not prove interception; large separation does not certify feasible pass",
+    "Detected-endpoint restriction applies to motion, not necessarily all defender coordinates nor all intermediate frames",
+    "The model does not account for defender reachable sets, ball flight height or trajectory variation",
+    "No cutoffs, binary pass-opportunity labels, statistical tests, or pressing-coordination conclusions",
+    "Candidate pairs share decisions and matches; no independent-sample inference"
+  ]
+}

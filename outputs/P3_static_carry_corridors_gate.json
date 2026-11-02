@@ -1,0 +1,314 @@
+{
+  "created_utc": "2026-10-26T02:05:57.656758+00:00",
+  "purpose": "Hypothetical static carrying corridors at possession start; geometry only",
+  "matches": 20,
+  "angles_deg": [
+    -60,
+    -30,
+    0,
+    30,
+    60
+  ],
+  "lengths_m": [
+    3.0,
+    5.0,
+    10.0
+  ],
+  "totals": {
+    "decisions": 18792,
+    "eligible_decisions": 18757,
+    "corridors": 281355,
+    "out_of_pitch_endpoint": 15836,
+    "minimum_defender_distance_defined": 281355,
+    "minimum_detected_defender_distance_defined": 275295,
+    "missing_carrier_xy": 35
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 959,
+        "eligible_decisions": 956,
+        "corridors": 14340,
+        "out_of_pitch_endpoint": 770,
+        "minimum_defender_distance_defined": 14340,
+        "minimum_detected_defender_distance_defined": 14160,
+        "missing_carrier_xy": 3
+      }
+    },
+    {
+      "match_id": "1886347",
+      "pitch_length_m": 104.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 999,
+        "eligible_decisions": 999,
+        "corridors": 14985,
+        "out_of_pitch_endpoint": 966,
+        "minimum_defender_distance_defined": 14985,
+        "minimum_detected_defender_distance_defined": 14625
+      }
+    },
+    {
+      "match_id": "1899585",
+      "pitch_length_m": 104.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 929,
+        "eligible_decisions": 929,
+        "corridors": 13935,
+        "out_of_pitch_endpoint": 775,
+        "minimum_defender_distance_defined": 13935,
+        "minimum_detected_defender_distance_defined": 13590
+      }
+    },
+    {
+      "match_id": "1925299",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 1062,
+        "eligible_decisions": 1062,
+        "corridors": 15930,
+        "out_of_pitch_endpoint": 826,
+        "minimum_defender_distance_defined": 15930,
+        "minimum_detected_defender_distance_defined": 15675
+      }
+    },
+    {
+      "match_id": "1927964",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 1140,
+        "eligible_decisions": 1139,
+        "corridors": 17085,
+        "out_of_pitch_endpoint": 773,
+        "minimum_defender_distance_defined": 17085,
+        "minimum_detected_defender_distance_defined": 16560,
+        "missing_carrier_xy": 1
+      }
+    },
+    {
+      "match_id": "1953632",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 979,
+        "eligible_decisions": 970,
+        "corridors": 14550,
+        "out_of_pitch_endpoint": 832,
+        "minimum_defender_distance_defined": 14550,
+        "minimum_detected_defender_distance_defined": 14220,
+        "missing_carrier_xy": 9
+      }
+    },
+    {
+      "match_id": "1959846",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 946,
+        "eligible_decisions": 945,
+        "corridors": 14175,
+        "out_of_pitch_endpoint": 695,
+        "minimum_defender_distance_defined": 14175,
+        "minimum_detected_defender_distance_defined": 13830,
+        "missing_carrier_xy": 1
+      }
+    },
+    {
+      "match_id": "1986691",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 915,
+        "eligible_decisions": 915,
+        "corridors": 13725,
+        "out_of_pitch_endpoint": 752,
+        "minimum_defender_distance_defined": 13725,
+        "minimum_detected_defender_distance_defined": 13335
+      }
+    },
+    {
+      "match_id": "1996435",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 1005,
+        "eligible_decisions": 997,
+        "corridors": 14955,
+        "out_of_pitch_endpoint": 900,
+        "minimum_defender_distance_defined": 14955,
+        "minimum_detected_defender_distance_defined": 14745,
+        "missing_carrier_xy": 8
+      }
+    },
+    {
+      "match_id": "1996436",
+      "pitch_length_m": 104.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 786,
+        "eligible_decisions": 785,
+        "corridors": 11775,
+        "out_of_pitch_endpoint": 821,
+        "minimum_defender_distance_defined": 11775,
+        "minimum_detected_defender_distance_defined": 11595,
+        "missing_carrier_xy": 1
+      }
+    },
+    {
+      "match_id": "2006229",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 979,
+        "eligible_decisions": 977,
+        "corridors": 14655,
+        "out_of_pitch_endpoint": 911,
+        "minimum_defender_distance_defined": 14655,
+        "minimum_detected_defender_distance_defined": 14430,
+        "missing_carrier_xy": 2
+      }
+    },
+    {
+      "match_id": "2006363",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 976,
+        "eligible_decisions": 976,
+        "corridors": 14640,
+        "out_of_pitch_endpoint": 879,
+        "minimum_defender_distance_defined": 14640,
+        "minimum_detected_defender_distance_defined": 14265
+      }
+    },
+    {
+      "match_id": "2007448",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 863,
+        "eligible_decisions": 862,
+        "corridors": 12930,
+        "out_of_pitch_endpoint": 725,
+        "minimum_defender_distance_defined": 12930,
+        "minimum_detected_defender_distance_defined": 12690,
+        "missing_carrier_xy": 1
+      }
+    },
+    {
+      "match_id": "2007721",
+      "pitch_length_m": 104.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 959,
+        "eligible_decisions": 959,
+        "corridors": 14385,
+        "out_of_pitch_endpoint": 836,
+        "minimum_defender_distance_defined": 14385,
+        "minimum_detected_defender_distance_defined": 14115
+      }
+    },
+    {
+      "match_id": "2010085",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 935,
+        "eligible_decisions": 935,
+        "corridors": 14025,
+        "out_of_pitch_endpoint": 770,
+        "minimum_defender_distance_defined": 14025,
+        "minimum_detected_defender_distance_defined": 13845
+      }
+    },
+    {
+      "match_id": "2011166",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 757,
+        "eligible_decisions": 755,
+        "corridors": 11325,
+        "out_of_pitch_endpoint": 776,
+        "minimum_defender_distance_defined": 11325,
+        "minimum_detected_defender_distance_defined": 11100,
+        "missing_carrier_xy": 2
+      }
+    },
+    {
+      "match_id": "2013725",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 922,
+        "eligible_decisions": 917,
+        "corridors": 13755,
+        "out_of_pitch_endpoint": 727,
+        "minimum_defender_distance_defined": 13755,
+        "minimum_detected_defender_distance_defined": 13455,
+        "missing_carrier_xy": 5
+      }
+    },
+    {
+      "match_id": "2015213",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 883,
+        "eligible_decisions": 881,
+        "corridors": 13215,
+        "out_of_pitch_endpoint": 674,
+        "minimum_defender_distance_defined": 13215,
+        "minimum_detected_defender_distance_defined": 12840,
+        "missing_carrier_xy": 2
+      }
+    },
+    {
+      "match_id": "2016236",
+      "pitch_length_m": 106.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 959,
+        "eligible_decisions": 959,
+        "corridors": 14385,
+        "out_of_pitch_endpoint": 709,
+        "minimum_defender_distance_defined": 14385,
+        "minimum_detected_defender_distance_defined": 13965
+      }
+    },
+    {
+      "match_id": "2017461",
+      "pitch_length_m": 105.0,
+      "pitch_width_m": 68.0,
+      "counts": {
+        "decisions": 839,
+        "eligible_decisions": 839,
+        "corridors": 12585,
+        "out_of_pitch_endpoint": 719,
+        "minimum_defender_distance_defined": 12585,
+        "minimum_detected_defender_distance_defined": 12255
+      }
+    }
+  ],
+  "invariants": {
+    "decisions_18792": true,
+    "eligible_18757": true,
+    "corridors_per_eligible_decision": 15,
+    "source_metadata_orientation": true
+  },
+  "limitations": [
+    "Hypothetical straight carrying displacements not actual carry opportunities or realized actions",
+    "No event outcomes or future observations used to build scenarios",
+    "No carrier speed, control, defender response, acceleration, turning or ball dynamics",
+    "Pitch bounds use reported match pitch dimensions and center-origin coordinates",
+    "Missing defender coordinates are not interpreted as open corridors",
+    "15 scenarios per decision are dependent; match and possession clustering required",
+    "Threshold-free minimum distance measures; not probabilistic interception or causal effects"
+  ]
+}

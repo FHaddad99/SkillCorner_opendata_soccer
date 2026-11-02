@@ -1,0 +1,296 @@
+{
+  "created_utc": "2026-10-26T01:54:03.048776+00:00",
+  "purpose": "Past-only defender velocity vectors and quality gating; no interception assumptions",
+  "matches": 20,
+  "totals": {
+    "defender_05_finite": 204127,
+    "defender_05_both_detected": 130769,
+    "defender_10_finite": 203170,
+    "decisions": 18792,
+    "defender_records": 206338,
+    "past_5_frame_present": 18778,
+    "past_10_frame_present": 18776,
+    "defender_05_gt_15": 1
+  },
+  "per_match": [
+    {
+      "match_id": "1874553",
+      "counts": {
+        "defender_05_finite": 10395,
+        "defender_05_both_detected": 6772,
+        "defender_10_finite": 10318,
+        "decisions": 959,
+        "defender_records": 10516,
+        "past_5_frame_present": 959,
+        "past_10_frame_present": 959
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1886347",
+      "counts": {
+        "defender_05_finite": 10901,
+        "defender_05_both_detected": 7068,
+        "defender_10_finite": 10835,
+        "decisions": 999,
+        "defender_records": 10989,
+        "past_5_frame_present": 999,
+        "past_10_frame_present": 999
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1899585",
+      "counts": {
+        "defender_10_finite": 9889,
+        "decisions": 929,
+        "defender_records": 10219,
+        "past_5_frame_present": 927,
+        "past_10_frame_present": 927,
+        "defender_05_finite": 10076,
+        "defender_05_both_detected": 6380
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1925299",
+      "counts": {
+        "defender_05_finite": 11649,
+        "defender_05_both_detected": 7243,
+        "defender_10_finite": 11627,
+        "decisions": 1062,
+        "defender_records": 11682,
+        "past_5_frame_present": 1062,
+        "past_10_frame_present": 1062
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1927964",
+      "counts": {
+        "defender_05_finite": 12353,
+        "defender_10_finite": 12298,
+        "decisions": 1140,
+        "defender_records": 12529,
+        "past_5_frame_present": 1140,
+        "past_10_frame_present": 1140,
+        "defender_05_both_detected": 8214
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1953632",
+      "counts": {
+        "defender_05_finite": 10571,
+        "defender_05_both_detected": 7308,
+        "defender_10_finite": 10505,
+        "decisions": 979,
+        "defender_records": 10681,
+        "past_5_frame_present": 979,
+        "past_10_frame_present": 979
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1959846",
+      "counts": {
+        "defender_10_finite": 10219,
+        "decisions": 946,
+        "defender_records": 10395,
+        "past_5_frame_present": 945,
+        "past_10_frame_present": 945,
+        "defender_05_finite": 10252,
+        "defender_05_both_detected": 6612
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1986691",
+      "counts": {
+        "defender_05_finite": 9900,
+        "defender_05_both_detected": 6687,
+        "defender_10_finite": 9878,
+        "decisions": 915,
+        "defender_records": 10065,
+        "past_5_frame_present": 915,
+        "past_10_frame_present": 915
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1996435",
+      "counts": {
+        "defender_05_finite": 10879,
+        "defender_05_both_detected": 8089,
+        "defender_10_finite": 10868,
+        "decisions": 1005,
+        "defender_records": 10967,
+        "past_5_frame_present": 1005,
+        "past_10_frame_present": 1005
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "1996436",
+      "counts": {
+        "defender_05_finite": 8580,
+        "defender_05_both_detected": 5909,
+        "defender_10_finite": 8547,
+        "decisions": 786,
+        "defender_records": 8635,
+        "past_5_frame_present": 786,
+        "past_10_frame_present": 786
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2006229",
+      "counts": {
+        "defender_05_finite": 10670,
+        "defender_05_both_detected": 7795,
+        "defender_10_finite": 10637,
+        "decisions": 979,
+        "defender_records": 10747,
+        "past_5_frame_present": 979,
+        "past_10_frame_present": 978
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2006363",
+      "counts": {
+        "defender_10_finite": 10560,
+        "decisions": 976,
+        "defender_records": 10736,
+        "past_5_frame_present": 974,
+        "past_10_frame_present": 974,
+        "defender_05_finite": 10571,
+        "defender_05_both_detected": 6055
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2007448",
+      "counts": {
+        "defender_10_finite": 9361,
+        "decisions": 863,
+        "defender_records": 9482,
+        "past_5_frame_present": 862,
+        "past_10_frame_present": 862,
+        "defender_05_finite": 9394,
+        "defender_05_both_detected": 5702,
+        "defender_05_gt_15": 1
+      },
+      "anomaly_examples": [
+        {
+          "period": 2,
+          "frame": 46449,
+          "defender_id": "26981",
+          "speed_mps": 15.768791963875989,
+          "both_detected": false
+        }
+      ]
+    },
+    {
+      "match_id": "2007721",
+      "counts": {
+        "defender_05_finite": 10483,
+        "defender_05_both_detected": 7251,
+        "defender_10_finite": 10461,
+        "decisions": 959,
+        "defender_records": 10549,
+        "past_5_frame_present": 958,
+        "past_10_frame_present": 958
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2010085",
+      "counts": {
+        "defender_10_finite": 10197,
+        "decisions": 935,
+        "defender_records": 10285,
+        "past_5_frame_present": 934,
+        "past_10_frame_present": 934,
+        "defender_05_finite": 10197,
+        "defender_05_both_detected": 6072
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2011166",
+      "counts": {
+        "defender_05_finite": 8206,
+        "defender_05_both_detected": 4819,
+        "defender_10_finite": 8162,
+        "decisions": 757,
+        "defender_records": 8305,
+        "past_5_frame_present": 756,
+        "past_10_frame_present": 756
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2013725",
+      "counts": {
+        "defender_10_finite": 9834,
+        "decisions": 922,
+        "defender_records": 10087,
+        "past_5_frame_present": 920,
+        "past_10_frame_present": 920,
+        "defender_05_finite": 9856,
+        "defender_05_both_detected": 6084
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2015213",
+      "counts": {
+        "defender_10_finite": 9559,
+        "decisions": 883,
+        "defender_records": 9691,
+        "past_5_frame_present": 881,
+        "past_10_frame_present": 881,
+        "defender_05_finite": 9625,
+        "defender_05_both_detected": 5984
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2016236",
+      "counts": {
+        "defender_05_finite": 10406,
+        "defender_05_both_detected": 5528,
+        "defender_10_finite": 10340,
+        "decisions": 959,
+        "defender_records": 10549,
+        "past_5_frame_present": 959,
+        "past_10_frame_present": 959
+      },
+      "anomaly_examples": []
+    },
+    {
+      "match_id": "2017461",
+      "counts": {
+        "defender_10_finite": 9075,
+        "decisions": 839,
+        "defender_records": 9229,
+        "past_5_frame_present": 838,
+        "past_10_frame_present": 837,
+        "defender_05_finite": 9163,
+        "defender_05_both_detected": 5197
+      },
+      "anomaly_examples": []
+    }
+  ],
+  "source_gate_agreement": true,
+  "limitations": [
+    "Finite differences at nominal 10 Hz, never forward frames",
+    "History conditioned on possession starts; sampling is not representative of all match play",
+    "Velocity estimates are retrospective, not maximum running ability or response to pressure",
+    "Two detected endpoints do not certify all intermediate frames",
+    "Missing historical tracking yields null, not imputation",
+    "No defender reach, ball-speed assumptions, pass feasibility or carrying opportunity labels",
+    "No causal or predictive inference; player/decision/match dependence persists"
+  ]
+}

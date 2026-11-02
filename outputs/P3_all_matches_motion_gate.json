@@ -1,0 +1,856 @@
+{
+  "created_utc": "2026-10-26T01:50:02.477761+00:00",
+  "purpose": "Past-only 0.5s and 1s retrospective tracking-motion coverage; descriptive only",
+  "n_matches": 20,
+  "decisions": 18792,
+  "unique_requested_keys": 55901,
+  "unique_found_keys": 55873,
+  "unavailable_requested_keys": 28,
+  "counts": {
+    "defender_5_finite": 204127,
+    "defender_5_detected_endpoints": 130769,
+    "defender_halfsec_gt_15mps": 1,
+    "defender_10_finite": 203170,
+    "defender_10_detected_endpoints": 125608,
+    "defender_records": 206338,
+    "past_5_frame_present": 18778,
+    "ball_5_finite": 18557,
+    "carrier_5_finite": 18556,
+    "past_10_frame_present": 18776,
+    "ball_10_finite": 18470,
+    "carrier_10_finite": 18469,
+    "decisions": 18792
+  },
+  "matches": [
+    {
+      "match_id": "1874553",
+      "decisions": 959,
+      "unique_requested_keys": 2853,
+      "unique_found_keys": 2853,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10395,
+        "defender_5_detected_endpoints": 6772,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10318,
+        "defender_10_detected_endpoints": 6500,
+        "defender_records": 10516,
+        "past_5_frame_present": 959,
+        "ball_5_finite": 945,
+        "carrier_5_finite": 945,
+        "past_10_frame_present": 959,
+        "ball_10_finite": 938,
+        "carrier_10_finite": 938,
+        "decisions": 959
+      },
+      "defender_halfsec_all": {
+        "n": 10395,
+        "median": 2.2044500447957565,
+        "p95": 5.040714235105978,
+        "max": 8.773984271697778
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6772,
+        "median": 2.5025985776283077,
+        "p95": 5.327363325323326,
+        "max": 8.773984271697778
+      },
+      "ball_halfsec_historical": {
+        "n": 945,
+        "median": 7.2386739117050976,
+        "p95": 13.244349738662146,
+        "max": 20.631878247023465
+      }
+    },
+    {
+      "match_id": "1886347",
+      "decisions": 999,
+      "unique_requested_keys": 2959,
+      "unique_found_keys": 2959,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10901,
+        "defender_5_detected_endpoints": 7068,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10835,
+        "defender_10_detected_endpoints": 6837,
+        "defender_records": 10989,
+        "past_5_frame_present": 999,
+        "ball_5_finite": 991,
+        "carrier_5_finite": 991,
+        "past_10_frame_present": 999,
+        "ball_10_finite": 985,
+        "carrier_10_finite": 985,
+        "decisions": 999
+      },
+      "defender_halfsec_all": {
+        "n": 10901,
+        "median": 2.2451725991558003,
+        "p95": 5.2285753317706005,
+        "max": 8.516924327478788
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 7068,
+        "median": 2.5746843807702513,
+        "p95": 5.527096887155136,
+        "max": 8.516924327478788
+      },
+      "ball_halfsec_historical": {
+        "n": 991,
+        "median": 6.070123557226822,
+        "p95": 10.942266675602454,
+        "max": 25.127108866720025
+      }
+    },
+    {
+      "match_id": "1899585",
+      "decisions": 929,
+      "unique_requested_keys": 2746,
+      "unique_found_keys": 2742,
+      "unavailable_requested_keys": 4,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10076,
+        "defender_5_detected_endpoints": 6380,
+        "defender_10_finite": 9889,
+        "defender_10_detected_endpoints": 6136,
+        "defender_records": 10219,
+        "past_5_frame_present": 927,
+        "ball_5_finite": 916,
+        "carrier_5_finite": 916,
+        "past_10_frame_present": 927,
+        "ball_10_finite": 899,
+        "carrier_10_finite": 899,
+        "decisions": 929,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 10076,
+        "median": 2.039460707726987,
+        "p95": 5.143150785267723,
+        "max": 8.658129128166207
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6380,
+        "median": 2.3454637068179074,
+        "p95": 5.459413887955375,
+        "max": 8.658129128166207
+      },
+      "ball_halfsec_historical": {
+        "n": 916,
+        "median": 5.592637885794652,
+        "p95": 11.004726257385958,
+        "max": 23.176375903061288
+      }
+    },
+    {
+      "match_id": "1925299",
+      "decisions": 1062,
+      "unique_requested_keys": 3163,
+      "unique_found_keys": 3163,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 11649,
+        "defender_5_detected_endpoints": 7243,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 11627,
+        "defender_10_detected_endpoints": 6957,
+        "defender_records": 11682,
+        "past_5_frame_present": 1062,
+        "ball_5_finite": 1059,
+        "carrier_5_finite": 1059,
+        "past_10_frame_present": 1062,
+        "ball_10_finite": 1057,
+        "carrier_10_finite": 1057,
+        "decisions": 1062
+      },
+      "defender_halfsec_all": {
+        "n": 11649,
+        "median": 2.118962010041709,
+        "p95": 4.8846698967279245,
+        "max": 9.045883041472514
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 7243,
+        "median": 2.410062239860199,
+        "p95": 5.2003846011617245,
+        "max": 9.045883041472514
+      },
+      "ball_halfsec_historical": {
+        "n": 1059,
+        "median": 6.285475320132915,
+        "p95": 11.309783375467454,
+        "max": 20.38432731291371
+      }
+    },
+    {
+      "match_id": "1927964",
+      "decisions": 1140,
+      "unique_requested_keys": 3396,
+      "unique_found_keys": 3396,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 12353,
+        "defender_5_detected_endpoints": 8214,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 12298,
+        "defender_10_detected_endpoints": 7951,
+        "defender_records": 12529,
+        "past_5_frame_present": 1140,
+        "ball_5_finite": 1123,
+        "carrier_5_finite": 1123,
+        "past_10_frame_present": 1140,
+        "ball_10_finite": 1118,
+        "carrier_10_finite": 1118,
+        "decisions": 1140
+      },
+      "defender_halfsec_all": {
+        "n": 12353,
+        "median": 1.8908199279677596,
+        "p95": 4.950838312851671,
+        "max": 9.158012884900304
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 8214,
+        "median": 2.192441561364863,
+        "p95": 5.278370960817367,
+        "max": 9.158012884900304
+      },
+      "ball_halfsec_historical": {
+        "n": 1123,
+        "median": 6.889673432028547,
+        "p95": 12.299284532036813,
+        "max": 21.602370240323168
+      }
+    },
+    {
+      "match_id": "1953632",
+      "decisions": 979,
+      "unique_requested_keys": 2919,
+      "unique_found_keys": 2919,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10571,
+        "defender_5_detected_endpoints": 7308,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10505,
+        "defender_10_detected_endpoints": 7048,
+        "defender_records": 10681,
+        "past_5_frame_present": 979,
+        "ball_5_finite": 961,
+        "carrier_5_finite": 960,
+        "past_10_frame_present": 979,
+        "ball_10_finite": 955,
+        "carrier_10_finite": 954,
+        "decisions": 979
+      },
+      "defender_halfsec_all": {
+        "n": 10571,
+        "median": 2.2033610689126735,
+        "p95": 5.100000000000001,
+        "max": 8.409375719992546
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 7308,
+        "median": 2.4554429335661645,
+        "p95": 5.343444581915295,
+        "max": 8.409375719992546
+      },
+      "ball_halfsec_historical": {
+        "n": 961,
+        "median": 7.071322365724815,
+        "p95": 11.960501661719713,
+        "max": 18.72159181266379
+      }
+    },
+    {
+      "match_id": "1959846",
+      "decisions": 946,
+      "unique_requested_keys": 2809,
+      "unique_found_keys": 2809,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 9,
+      "counts": {
+        "defender_5_finite": 10252,
+        "defender_5_detected_endpoints": 6612,
+        "defender_10_finite": 10219,
+        "defender_10_detected_endpoints": 6364,
+        "defender_records": 10395,
+        "past_5_frame_present": 945,
+        "ball_5_finite": 932,
+        "carrier_5_finite": 932,
+        "past_10_frame_present": 945,
+        "ball_10_finite": 929,
+        "carrier_10_finite": 929,
+        "decisions": 946,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 10252,
+        "median": 2.0879176179521437,
+        "p95": 5.053394898481613,
+        "max": 9.440529646158632
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6612,
+        "median": 2.3820159529272713,
+        "p95": 5.4332310828824415,
+        "max": 9.440529646158632
+      },
+      "ball_halfsec_historical": {
+        "n": 932,
+        "median": 7.33265246578498,
+        "p95": 13.243866504914642,
+        "max": 24.182117359735063
+      }
+    },
+    {
+      "match_id": "1986691",
+      "decisions": 915,
+      "unique_requested_keys": 2719,
+      "unique_found_keys": 2719,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 9900,
+        "defender_5_detected_endpoints": 6687,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 9878,
+        "defender_10_detected_endpoints": 6495,
+        "defender_records": 10065,
+        "past_5_frame_present": 915,
+        "ball_5_finite": 900,
+        "carrier_5_finite": 900,
+        "past_10_frame_present": 915,
+        "ball_10_finite": 898,
+        "carrier_10_finite": 898,
+        "decisions": 915
+      },
+      "defender_halfsec_all": {
+        "n": 9900,
+        "median": 2.0319448811422025,
+        "p95": 4.972403845224161,
+        "max": 8.339688243573613
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6687,
+        "median": 2.3220680437919996,
+        "p95": 5.240152669531679,
+        "max": 8.339688243573613
+      },
+      "ball_halfsec_historical": {
+        "n": 900,
+        "median": 6.758727276332817,
+        "p95": 12.67100627416781,
+        "max": 23.18538332657021
+      }
+    },
+    {
+      "match_id": "1996435",
+      "decisions": 1005,
+      "unique_requested_keys": 2992,
+      "unique_found_keys": 2992,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10879,
+        "defender_5_detected_endpoints": 8089,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10868,
+        "defender_10_detected_endpoints": 7914,
+        "defender_records": 10967,
+        "past_5_frame_present": 1005,
+        "ball_5_finite": 989,
+        "carrier_5_finite": 989,
+        "past_10_frame_present": 1005,
+        "ball_10_finite": 988,
+        "carrier_10_finite": 988,
+        "decisions": 1005
+      },
+      "defender_halfsec_all": {
+        "n": 10879,
+        "median": 2.0961870145576227,
+        "p95": 5.11441101203257,
+        "max": 8.970195092638727
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 8089,
+        "median": 2.343672332046446,
+        "p95": 5.359552220101975,
+        "max": 8.970195092638727
+      },
+      "ball_halfsec_historical": {
+        "n": 989,
+        "median": 6.784010613199254,
+        "p95": 12.914642852204626,
+        "max": 21.25857003657583
+      }
+    },
+    {
+      "match_id": "1996436",
+      "decisions": 786,
+      "unique_requested_keys": 2335,
+      "unique_found_keys": 2335,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 8580,
+        "defender_5_detected_endpoints": 5909,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 8547,
+        "defender_10_detected_endpoints": 5708,
+        "defender_records": 8635,
+        "past_5_frame_present": 786,
+        "ball_5_finite": 780,
+        "carrier_5_finite": 780,
+        "past_10_frame_present": 786,
+        "ball_10_finite": 777,
+        "carrier_10_finite": 777,
+        "decisions": 786
+      },
+      "defender_halfsec_all": {
+        "n": 8580,
+        "median": 1.9589793260777393,
+        "p95": 5.07594326209425,
+        "max": 11.937738479293303
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 5909,
+        "median": 2.284731931759173,
+        "p95": 5.30904887903662,
+        "max": 11.937738479293303
+      },
+      "ball_halfsec_historical": {
+        "n": 780,
+        "median": 6.500490779260302,
+        "p95": 12.503471517942522,
+        "max": 24.068302806803803
+      }
+    },
+    {
+      "match_id": "2006229",
+      "decisions": 979,
+      "unique_requested_keys": 2913,
+      "unique_found_keys": 2912,
+      "unavailable_requested_keys": 1,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10670,
+        "defender_5_detected_endpoints": 7795,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10637,
+        "defender_10_detected_endpoints": 7498,
+        "defender_records": 10747,
+        "past_5_frame_present": 979,
+        "ball_5_finite": 970,
+        "carrier_5_finite": 970,
+        "past_10_frame_present": 978,
+        "ball_10_finite": 967,
+        "carrier_10_finite": 967,
+        "decisions": 979
+      },
+      "defender_halfsec_all": {
+        "n": 10670,
+        "median": 2.092032460294252,
+        "p95": 4.980361432667312,
+        "max": 8.964128513135007
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 7795,
+        "median": 2.321120419107982,
+        "p95": 5.19507459041735,
+        "max": 8.964128513135007
+      },
+      "ball_halfsec_historical": {
+        "n": 970,
+        "median": 7.129999560566075,
+        "p95": 12.292566859692073,
+        "max": 23.009259005887177
+      }
+    },
+    {
+      "match_id": "2006363",
+      "decisions": 976,
+      "unique_requested_keys": 2909,
+      "unique_found_keys": 2905,
+      "unavailable_requested_keys": 4,
+      "invalid_key_tracking_records": 29,
+      "counts": {
+        "defender_5_finite": 10571,
+        "defender_5_detected_endpoints": 6055,
+        "defender_10_finite": 10560,
+        "defender_10_detected_endpoints": 5692,
+        "defender_records": 10736,
+        "past_5_frame_present": 974,
+        "ball_5_finite": 961,
+        "carrier_5_finite": 961,
+        "past_10_frame_present": 974,
+        "ball_10_finite": 960,
+        "carrier_10_finite": 960,
+        "decisions": 976,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 10571,
+        "median": 2.129037341147404,
+        "p95": 5.092150822589607,
+        "max": 8.747045215385596
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6055,
+        "median": 2.4778216239269555,
+        "p95": 5.517245689653489,
+        "max": 8.747045215385596
+      },
+      "ball_halfsec_historical": {
+        "n": 961,
+        "median": 7.042755142698063,
+        "p95": 12.90621555685477,
+        "max": 30.10188698404139
+      }
+    },
+    {
+      "match_id": "2007448",
+      "decisions": 863,
+      "unique_requested_keys": 2567,
+      "unique_found_keys": 2565,
+      "unavailable_requested_keys": 2,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 9394,
+        "defender_5_detected_endpoints": 5702,
+        "defender_10_finite": 9361,
+        "defender_10_detected_endpoints": 5508,
+        "defender_records": 9482,
+        "past_5_frame_present": 862,
+        "ball_5_finite": 854,
+        "carrier_5_finite": 854,
+        "past_10_frame_present": 862,
+        "ball_10_finite": 851,
+        "carrier_10_finite": 851,
+        "decisions": 863,
+        "defender_halfsec_gt_15mps": 1
+      },
+      "defender_halfsec_all": {
+        "n": 9394,
+        "median": 2.203724073945315,
+        "p95": 5.133614710903036,
+        "max": 15.768791963875989
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 5702,
+        "median": 2.552763157964776,
+        "p95": 5.493013744748869,
+        "max": 8.703332695008273
+      },
+      "ball_halfsec_historical": {
+        "n": 854,
+        "median": 6.975758019555391,
+        "p95": 12.58769240170731,
+        "max": 24.7643372614734
+      }
+    },
+    {
+      "match_id": "2007721",
+      "decisions": 959,
+      "unique_requested_keys": 2865,
+      "unique_found_keys": 2863,
+      "unavailable_requested_keys": 2,
+      "invalid_key_tracking_records": 29,
+      "counts": {
+        "defender_5_finite": 10483,
+        "defender_5_detected_endpoints": 7251,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10461,
+        "defender_10_detected_endpoints": 6989,
+        "defender_records": 10549,
+        "past_5_frame_present": 958,
+        "ball_5_finite": 953,
+        "carrier_5_finite": 953,
+        "past_10_frame_present": 958,
+        "ball_10_finite": 951,
+        "carrier_10_finite": 951,
+        "decisions": 959
+      },
+      "defender_halfsec_all": {
+        "n": 10483,
+        "median": 2.0366639388961567,
+        "p95": 5.04194406950335,
+        "max": 9.202716990106785
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 7251,
+        "median": 2.3023466289853065,
+        "p95": 5.336553194712851,
+        "max": 9.202716990106785
+      },
+      "ball_halfsec_historical": {
+        "n": 953,
+        "median": 6.7657963315488585,
+        "p95": 12.450799171137572,
+        "max": 25.08000797448039
+      }
+    },
+    {
+      "match_id": "2010085",
+      "decisions": 935,
+      "unique_requested_keys": 2785,
+      "unique_found_keys": 2783,
+      "unavailable_requested_keys": 2,
+      "invalid_key_tracking_records": 19,
+      "counts": {
+        "defender_5_finite": 10197,
+        "defender_5_detected_endpoints": 6072,
+        "defender_10_finite": 10197,
+        "defender_10_detected_endpoints": 5802,
+        "defender_records": 10285,
+        "past_5_frame_present": 934,
+        "ball_5_finite": 927,
+        "carrier_5_finite": 927,
+        "past_10_frame_present": 934,
+        "ball_10_finite": 927,
+        "carrier_10_finite": 927,
+        "decisions": 935,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 10197,
+        "median": 2.0880613017821106,
+        "p95": 4.976946855251719,
+        "max": 8.655194971807394
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6072,
+        "median": 2.4186773244895656,
+        "p95": 5.311798188937527,
+        "max": 8.268736300064242
+      },
+      "ball_halfsec_historical": {
+        "n": 927,
+        "median": 7.1394397539302785,
+        "p95": 12.428419046684896,
+        "max": 17.76344561170496
+      }
+    },
+    {
+      "match_id": "2011166",
+      "decisions": 757,
+      "unique_requested_keys": 2255,
+      "unique_found_keys": 2253,
+      "unavailable_requested_keys": 2,
+      "invalid_key_tracking_records": 12559,
+      "counts": {
+        "defender_5_finite": 8206,
+        "defender_5_detected_endpoints": 4819,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 8162,
+        "defender_10_detected_endpoints": 4573,
+        "defender_records": 8305,
+        "past_5_frame_present": 756,
+        "ball_5_finite": 746,
+        "carrier_5_finite": 746,
+        "past_10_frame_present": 756,
+        "ball_10_finite": 742,
+        "carrier_10_finite": 742,
+        "decisions": 757
+      },
+      "defender_halfsec_all": {
+        "n": 8206,
+        "median": 2.15870331449229,
+        "p95": 5.416604102202778,
+        "max": 14.247245347785656
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 4819,
+        "median": 2.460650320545364,
+        "p95": 5.75294707084986,
+        "max": 13.394461541995637
+      },
+      "ball_halfsec_historical": {
+        "n": 746,
+        "median": 6.582202741590164,
+        "p95": 12.447778918345234,
+        "max": 23.544009853888525
+      }
+    },
+    {
+      "match_id": "2013725",
+      "decisions": 922,
+      "unique_requested_keys": 2741,
+      "unique_found_keys": 2737,
+      "unavailable_requested_keys": 4,
+      "invalid_key_tracking_records": 13459,
+      "counts": {
+        "defender_5_finite": 9856,
+        "defender_5_detected_endpoints": 6084,
+        "defender_10_finite": 9834,
+        "defender_10_detected_endpoints": 5801,
+        "defender_records": 10087,
+        "past_5_frame_present": 920,
+        "ball_5_finite": 896,
+        "carrier_5_finite": 896,
+        "past_10_frame_present": 920,
+        "ball_10_finite": 894,
+        "carrier_10_finite": 894,
+        "decisions": 922,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 9856,
+        "median": 2.310411218809329,
+        "p95": 5.445475185876803,
+        "max": 9.5870746320241
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 6084,
+        "median": 2.6359059163786567,
+        "p95": 5.854400054659741,
+        "max": 9.446988938280812
+      },
+      "ball_halfsec_historical": {
+        "n": 896,
+        "median": 6.958060038838069,
+        "p95": 12.687773642369251,
+        "max": 24.190080611688753
+      }
+    },
+    {
+      "match_id": "2015213",
+      "decisions": 883,
+      "unique_requested_keys": 2629,
+      "unique_found_keys": 2625,
+      "unavailable_requested_keys": 4,
+      "invalid_key_tracking_records": 12199,
+      "counts": {
+        "defender_5_finite": 9625,
+        "defender_5_detected_endpoints": 5984,
+        "defender_10_finite": 9559,
+        "defender_10_detected_endpoints": 5740,
+        "defender_records": 9691,
+        "past_5_frame_present": 881,
+        "ball_5_finite": 875,
+        "carrier_5_finite": 875,
+        "past_10_frame_present": 881,
+        "ball_10_finite": 869,
+        "carrier_10_finite": 869,
+        "decisions": 883,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 9625,
+        "median": 2.4140422531513357,
+        "p95": 5.400925846556311,
+        "max": 11.311480893322502
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 5984,
+        "median": 2.750054510295083,
+        "p95": 5.6859475903318,
+        "max": 9.520336128519832
+      },
+      "ball_halfsec_historical": {
+        "n": 875,
+        "median": 6.835934464285041,
+        "p95": 12.164620832561942,
+        "max": 19.74073960113957
+      }
+    },
+    {
+      "match_id": "2016236",
+      "decisions": 959,
+      "unique_requested_keys": 2851,
+      "unique_found_keys": 2851,
+      "unavailable_requested_keys": 0,
+      "invalid_key_tracking_records": 11059,
+      "counts": {
+        "defender_5_finite": 10406,
+        "defender_5_detected_endpoints": 5528,
+        "defender_halfsec_gt_15mps": 0,
+        "defender_10_finite": 10340,
+        "defender_10_detected_endpoints": 5196,
+        "defender_records": 10549,
+        "past_5_frame_present": 959,
+        "ball_5_finite": 946,
+        "carrier_5_finite": 946,
+        "past_10_frame_present": 959,
+        "ball_10_finite": 940,
+        "carrier_10_finite": 940,
+        "decisions": 959
+      },
+      "defender_halfsec_all": {
+        "n": 10406,
+        "median": 2.241829573993445,
+        "p95": 5.206495942570203,
+        "max": 10.089142679137804
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 5528,
+        "median": 2.7014440458496436,
+        "p95": 5.620854027636726,
+        "max": 10.089142679137804
+      },
+      "ball_halfsec_historical": {
+        "n": 946,
+        "median": 7.022050438963398,
+        "p95": 13.067593504543979,
+        "max": 21.079089164382793
+      }
+    },
+    {
+      "match_id": "2017461",
+      "decisions": 839,
+      "unique_requested_keys": 2495,
+      "unique_found_keys": 2492,
+      "unavailable_requested_keys": 3,
+      "invalid_key_tracking_records": 12999,
+      "counts": {
+        "defender_5_finite": 9163,
+        "defender_5_detected_endpoints": 5197,
+        "defender_10_finite": 9075,
+        "defender_10_detected_endpoints": 4899,
+        "defender_records": 9229,
+        "past_5_frame_present": 838,
+        "ball_5_finite": 833,
+        "carrier_5_finite": 833,
+        "past_10_frame_present": 837,
+        "ball_10_finite": 825,
+        "carrier_10_finite": 825,
+        "decisions": 839,
+        "defender_halfsec_gt_15mps": 0
+      },
+      "defender_halfsec_all": {
+        "n": 9163,
+        "median": 2.20327029662727,
+        "p95": 5.294109934634905,
+        "max": 11.029850406963824
+      },
+      "defender_halfsec_both_endpoints_detected": {
+        "n": 5197,
+        "median": 2.560703028466988,
+        "p95": 5.643580423808986,
+        "max": 11.029850406963824
+      },
+      "ball_halfsec_historical": {
+        "n": 833,
+        "median": 5.861228540161183,
+        "p95": 10.886634006891203,
+        "max": 15.965324926226836
+      }
+    }
+  ],
+  "limitations": [
+    "Exact historical frame keys within the same period; no future frames",
+    "Net displacement per second is not instantaneous speed, path distance, acceleration, or sprint capacity",
+    "Endpoint detection does not certify the complete historical trajectory",
+    "Extrapolated coordinates can distort motion",
+    "Historical ball movement is not prospective pass-travel velocity",
+    "15m/s is a diagnostic flag only; no automatic exclusions",
+    "This notebook does not construct interception probabilities or feasible passing/carrying options",
+    "Defenders within a possession and observations within a match are not statistically independent"
+  ]
+}
